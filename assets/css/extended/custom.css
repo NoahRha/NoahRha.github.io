@@ -93,3 +93,47 @@
   border: 1px solid var(--border);
   color: var(--secondary);
 }
+
+.featured-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.featured-box {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px 16px;
+  background: var(--entry);
+}
+
+.featured-label {
+  font-size: .95rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.featured-box ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.featured-box li {
+  margin: 8px 0;
+}
+
+.featured-box a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.featured-box a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .featured-links {
+    grid-template-columns: 1fr;
+  }
+}
