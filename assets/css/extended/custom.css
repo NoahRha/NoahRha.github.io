@@ -1,0 +1,80 @@
+:root {
+  --gap: 24px;
+}
+
+.main {
+  max-width: 980px;
+}
+
+.first-entry {
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 28px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.00));
+}
+
+.custom-home-card {
+  padding: 8px 4px 0;
+}
+
+.custom-home-card .entry-header h1 {
+  font-size: 2.2rem;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+.custom-home-card .entry-content p {
+  font-size: 1.02rem;
+  line-height: 1.8;
+  margin: 0 0 10px;
+  color: var(--secondary);
+}
+
+.custom-home-card .entry-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.custom-home-card .button {
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  color: var(--primary);
+  background: var(--theme);
+  transition: transform .15s ease, border-color .15s ease;
+}
+
+.custom-home-card .button:hover {
+  transform: translateY(-1px);
+  border-color: var(--primary);
+}
+
+.post-entry {
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  transition: transform .15s ease, border-color .15s ease, box-shadow .15s ease;
+}
+
+.post-entry:hover {
+  transform: translateY(-2px);
+  border-color: var(--primary);
+  box-shadow: 0 8px 24px rgba(0,0,0,.06);
+}
+
+.logo a {
+  font-weight: 700;
+}
+
+.nav a {
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .custom-home-card .entry-header h1 {
+    font-size: 1.8rem;
+  }
+}
