@@ -78,3 +78,18 @@
     font-size: 1.8rem;
   }
 }
+
+.home-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.home-keywords span {
+  font-size: .92rem;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--secondary);
+}
