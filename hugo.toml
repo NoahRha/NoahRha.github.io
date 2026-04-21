@@ -1,22 +1,97 @@
 baseURL = 'https://noahrha.github.io/'
 languageCode = 'ko'
+defaultContentLanguage = 'ko'
 title = "Noah's Blog"
 theme = 'PaperMod'
+summaryLength = 30
+
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 10
+
+[taxonomies]
+  tag = 'tags'
+  category = 'categories'
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
 
 [params]
+  env = 'production'
+  author = 'Noah'
+  description = 'AI, OpenClaw, 에이전트, 자동화, 블로그 제작 기록을 정리하는 Noah의 기술 블로그'
+  keywords = ['OpenClaw', 'AI', '에이전트', '자동화', 'Claude', 'Hugo', '기술블로그']
+  defaultTheme = 'auto'
+  disableThemeToggle = false
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
-  defaultTheme = 'auto'
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  ShowToc = true
+  TocOpen = false
+  ShowAllPagesInArchive = true
+  mainSections = ['posts']
+
+  [params.profileMode]
+    enabled = true
+    title = "Noah's Blog"
+    subtitle = "OpenClaw, AI 에이전트, 자동화, 그리고 실전 블로그 운영 기록"
+    imageUrl = ''
+    imageTitle = 'Noah Blog'
+    imageWidth = 140
+    imageHeight = 140
+
+    [[params.profileMode.buttons]]
+      name = '최신 글 보기'
+      url = '/posts/'
+    [[params.profileMode.buttons]]
+      name = '아카이브'
+      url = '/archives/'
+    [[params.profileMode.buttons]]
+      name = '태그'
+      url = '/tags/'
+
+  [params.homeInfoParams]
+    Title = 'Noah의 기술 블로그'
+    Content = 'OpenClaw, AI 에이전트, 자동화, Claude, 번역형 기술 정리글을 기록합니다.'
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 2
+    limit = 10
+    keys = ['title', 'permalink', 'summary', 'content']
 
 [menu]
   [[menu.main]]
     identifier = 'home'
-    name = 'Home'
+    name = '홈'
     url = '/'
     weight = 10
   [[menu.main]]
     identifier = 'posts'
-    name = 'Posts'
+    name = '글목록'
     url = '/posts/'
     weight = 20
+  [[menu.main]]
+    identifier = 'archives'
+    name = '아카이브'
+    url = '/archives/'
+    weight = 30
+  [[menu.main]]
+    identifier = 'search'
+    name = '검색'
+    url = '/search/'
+    weight = 40
+  [[menu.main]]
+    identifier = 'tags'
+    name = '태그'
+    url = '/tags/'
+    weight = 50
