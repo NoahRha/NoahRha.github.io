@@ -37,7 +37,7 @@ enableRobotsTXT = true
   mainSections = ['posts']
 
   [params.profileMode]
-    enabled = true
+    enabled = false
     title = "Noah's Blog"
     subtitle = "OpenClaw, AI 에이전트, 자동화, 그리고 실전 블로그 운영 기록"
     imageUrl = '/images/profile-placeholder.png'

@@ -577,3 +577,133 @@ body {
     padding: 22px;
   }
 }
+
+/* Home showcase */
+.home-showcase {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(260px, .75fr);
+  gap: 24px;
+  align-items: stretch;
+}
+
+.home-showcase .home-hero-copy {
+  min-width: 0;
+}
+
+.hero-badge.light {
+  color: #4f6df5;
+}
+
+.home-hero-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 22px;
+  background:
+    radial-gradient(circle at top right, color-mix(in srgb, #5b7cfa 14%, transparent), transparent 42%),
+    var(--entry);
+}
+
+.home-panel-label {
+  font-size: .76rem;
+  font-weight: 850;
+  letter-spacing: .14em;
+  color: var(--secondary);
+  margin-bottom: 10px;
+}
+
+.home-panel-title {
+  color: var(--primary);
+  font-size: 1.28rem;
+  font-weight: 850;
+  letter-spacing: -0.035em;
+  line-height: 1.35;
+  margin-bottom: 10px;
+}
+
+.home-hero-panel p {
+  color: var(--secondary);
+  line-height: 1.75;
+  margin: 0;
+}
+
+.home-keywords.compact,
+.hero-keywords.compact {
+  margin-top: 16px;
+}
+
+.home-section-title {
+  grid-column: 1 / -1;
+  margin-top: 8px;
+  color: var(--primary);
+  font-weight: 850;
+  letter-spacing: -0.03em;
+}
+
+.home-feature-grid {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.home-feature-card {
+  display: block;
+  min-height: 138px;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 18px;
+  background: var(--entry);
+  transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease;
+}
+
+.home-feature-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--primary);
+  box-shadow: 0 12px 28px rgba(0,0,0,.06);
+}
+
+.home-feature-card span {
+  display: inline-block;
+  font-size: .78rem;
+  font-weight: 850;
+  color: var(--secondary);
+  margin-bottom: 12px;
+}
+
+.home-feature-card strong {
+  display: block;
+  color: var(--primary);
+  font-size: 1.08rem;
+  letter-spacing: -0.03em;
+  margin-bottom: 8px;
+}
+
+.home-feature-card p {
+  color: var(--secondary);
+  font-size: .94rem;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.featured-links.upgraded {
+  grid-column: 1 / -1;
+}
+
+.custom-home-card .button.primary {
+  color: #fff;
+  border-color: transparent;
+  background: linear-gradient(135deg, #5b7cfa, #20c997);
+}
+
+@media (max-width: 860px) {
+  .home-showcase {
+    grid-template-columns: 1fr;
+  }
+
+  .home-feature-grid {
+    grid-template-columns: 1fr;
+  }
+}
