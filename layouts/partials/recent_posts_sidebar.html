@@ -1,0 +1,17 @@
+{{- $current := . -}}
+{{- $posts := where site.RegularPages "Type" "in" site.Params.mainSections -}}
+{{- $posts = first 12 $posts -}}
+<aside class="blog-sidebar" aria-label="최근 글 목록">
+  <div class="blog-sidebar-inner">
+    <div class="blog-sidebar-title">최근 글</div>
+    <nav class="blog-sidebar-nav">
+      {{- range $posts }}
+      <a class="blog-sidebar-link{{ if eq .RelPermalink $current.RelPermalink }} active{{ end }}" href="{{ .RelPermalink }}">
+        <span class="blog-sidebar-link-title">{{ .Title }}</span>
+        <span class="blog-sidebar-link-date">{{ .Date.Format "2006.01.02" }}</span>
+      </a>
+      {{- end }}
+    </nav>
+    <a class="blog-sidebar-all" href="/posts/">전체 글 보기 →</a>
+  </div>
+</aside>
