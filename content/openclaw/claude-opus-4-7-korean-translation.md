@@ -15,6 +15,8 @@ tags:
 categories:
   - AI 개발
   - 번역
+aliases:
+  - /posts/claude-opus-4-7-korean-translation/
 ---
 
 # Claude Opus 4.7 공개, 이제 진짜 어려운 코딩도 맡길 수 있나

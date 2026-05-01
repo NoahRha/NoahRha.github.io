@@ -17,6 +17,8 @@ tags:
 categories:
   - Development
   - 오픈소스
+aliases:
+  - /posts/public-apis-free-api-list/
 ---
 
 # Public APIs: 무료 API를 찾을 때 가장 먼저 열어볼 저장소

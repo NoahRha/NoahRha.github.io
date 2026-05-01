@@ -15,6 +15,8 @@ tags:
 categories:
   - OpenClaw
   - AI 에이전트
+aliases:
+  - /posts/openclaw-2026-4-26-release-update/
 ---
 
 # OpenClaw 2026.4.26 업데이트: 더 안전하고 덜 흔들리는 실행 환경으로

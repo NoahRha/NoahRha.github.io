@@ -4,6 +4,8 @@ date: 2025-07-15T00:00:00+09:00
 draft: false
 tags: []
 categories: []
+aliases:
+  - /posts/qwen25-turbo-1m-context/
 ---
 
 ## 🚀 Qwen 2.5-Turbo: 1M 컨텍스트의 혁신

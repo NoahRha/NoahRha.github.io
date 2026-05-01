@@ -1,9 +1,10 @@
 baseURL = 'https://noahrha.github.io/'
 languageCode = 'ko'
 defaultContentLanguage = 'ko'
-title = "Noah's Blog"
+title = "MyXCloud Blog"
 theme = 'PaperMod'
 summaryLength = 30
+disablePathToLower = true
 
 enableRobotsTXT = true
 
@@ -25,8 +26,8 @@ enableRobotsTXT = true
 [params]
   env = 'production'
   author = 'Noah'
-  description = 'AI, OpenClaw, 에이전트, 자동화, 블로그 제작 기록을 정리하는 Noah의 기술 블로그'
-  keywords = ['OpenClaw', 'AI', '에이전트', '자동화', 'Claude', 'Hugo', '기술블로그']
+  description = 'OpenClaw, IT 보안, LLM 소식을 정리하는 MyXCloud 블로그'
+  keywords = ['OpenClaw', 'IT 보안', 'LLM', 'AI', '에이전트', '자동화', '기술블로그']
   defaultTheme = 'auto'
   disableThemeToggle = false
   ShowReadingTime = true
@@ -39,20 +40,20 @@ enableRobotsTXT = true
   ShowToc = true
   TocOpen = false
   ShowAllPagesInArchive = true
-  mainSections = ['posts']
+  mainSections = ['openclaw', 'IT-security', 'LLM-info']
 
   [params.profileMode]
     enabled = false
-    title = "Noah's Blog"
-    subtitle = "OpenClaw, AI 에이전트, 자동화, 그리고 실전 블로그 운영 기록"
+    title = "MyXCloud Blog"
+    subtitle = "OpenClaw, IT 보안, LLM 소식을 정리합니다"
     imageUrl = '/images/profile-placeholder.png'
     imageTitle = 'Noah Blog'
     imageWidth = 140
     imageHeight = 140
 
     [[params.profileMode.buttons]]
-      name = '최신 글 보기'
-      url = '/posts/'
+      name = 'OpenClaw 글 보기'
+      url = '/openclaw/'
     [[params.profileMode.buttons]]
       name = '아카이브'
       url = '/archives/'
@@ -61,8 +62,8 @@ enableRobotsTXT = true
       url = '/tags/'
 
   [params.homeInfoParams]
-    Title = 'Noah의 기술 블로그'
-    Content = 'OpenClaw, AI 에이전트, 자동화, Claude, 번역형 기술 정리글을 기록합니다.'
+    Title = 'MyXCloud Blog'
+    Content = 'OpenClaw, IT 보안, LLM 소식을 카테고리별로 정리합니다.'
 
   [params.fuseOpts]
     isCaseSensitive = false
@@ -81,27 +82,37 @@ enableRobotsTXT = true
     url = '/'
     weight = 10
   [[menu.main]]
-    identifier = 'posts'
-    name = '글목록'
-    url = '/posts/'
+    identifier = 'openclaw'
+    name = 'OpenClaw'
+    url = '/openclaw/'
     weight = 20
+  [[menu.main]]
+    identifier = 'it-security'
+    name = 'IT 보안'
+    url = '/IT-security/'
+    weight = 30
+  [[menu.main]]
+    identifier = 'llm-info'
+    name = 'LLM 소식'
+    url = '/LLM-info/'
+    weight = 40
   [[menu.main]]
     identifier = 'archives'
     name = '아카이브'
     url = '/archives/'
-    weight = 30
+    weight = 50
   [[menu.main]]
     identifier = 'search'
     name = '검색'
     url = '/search/'
-    weight = 40
+    weight = 60
   [[menu.main]]
     identifier = 'tags'
     name = '태그'
     url = '/tags/'
-    weight = 50
+    weight = 70
   [[menu.main]]
     identifier = 'about'
     name = '소개'
     url = '/about/'
-    weight = 60
+    weight = 80

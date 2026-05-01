@@ -18,6 +18,8 @@ tags:
 categories:
   - OpenClaw
   - AI 에이전트
+aliases:
+  - /posts/openclaw-v2026-4-23-beta-5-release-notes/
 ---
 
 # OpenClaw 2026.4.23 beta 5 업데이트: Codex OAuth 이미지 생성과 OpenRouter 지원 강화

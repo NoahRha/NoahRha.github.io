@@ -15,6 +15,8 @@ tags:
 categories:
   - OpenClaw
   - 번역
+aliases:
+  - /posts/openclaw-v2026-4-20-beta-1-korean-translation/
 ---
 
 # OpenClaw 2026.4.20-beta.1 정리, 이번엔 기능보다 운영 안정화가 핵심이다

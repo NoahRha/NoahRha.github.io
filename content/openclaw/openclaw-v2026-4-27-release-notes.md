@@ -14,6 +14,8 @@ tags:
 categories:
   - 기술문서
   - 릴리스해설
+aliases:
+  - /posts/openclaw-v2026-4-27-release-notes/
 ---
 
 ## 핵심 요약

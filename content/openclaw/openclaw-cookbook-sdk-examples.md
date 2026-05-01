@@ -13,6 +13,8 @@ tags:
 categories:
   - OpenClaw
   - AI 에이전트
+aliases:
+  - /posts/openclaw-cookbook-sdk-examples/
 ---
 
 # OpenClaw Cookbook: 에이전트 앱을 만들기 위한 실전 예제 모음

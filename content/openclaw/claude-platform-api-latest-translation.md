@@ -18,6 +18,8 @@ tags:
 categories:
   - AI 개발
   - 번역
+aliases:
+  - /posts/claude-platform-api-latest-translation/
 ---
 
 # Claude Platform API 최신 내용 정리와 한국어 번역

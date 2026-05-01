@@ -15,6 +15,8 @@ tags:
 categories:
   - OpenClaw
   - AI 에이전트
+aliases:
+  - /posts/openclaw-2026-4-29-release-update/
 ---
 
 # OpenClaw 2026.4.29 업데이트: “오래 켜두고 쓰는 에이전트”에 가까워지다

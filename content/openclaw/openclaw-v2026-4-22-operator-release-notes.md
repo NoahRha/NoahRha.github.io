@@ -18,6 +18,8 @@ tags:
 categories:
   - 기술문서
   - 릴리스해설
+aliases:
+  - /posts/openclaw-v2026-4-22-operator-release-notes/
 ---
 
 # openclaw v2026.4.22, 운영자 입장에서 진짜 반가운 변화만 골라보면

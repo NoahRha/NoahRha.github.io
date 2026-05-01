@@ -12,6 +12,8 @@ tags:
   - 자동화
 categories:
   - 기술문서
+aliases:
+  - /posts/openclaw-docs-overview/
 ---
 
 # OpenClaw 문서 한 번에 이해하기
