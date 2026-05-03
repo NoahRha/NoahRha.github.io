@@ -1,6 +1,6 @@
 ---
 title: "OpenClaw 2026.5.2 업데이트: npm-first 플러그인 전환과 더 빨라진 게이트웨이"
-date: 2026-05-03T10:50:00+09:00
+date: 2026-05-03T10:45:00+09:00
 draft: false
 description: "OpenClaw 2026.5.2 릴리스의 핵심 변경점을 한국어로 정리했다. npm-first 플러그인 전환, ClawHub 메타데이터, 게이트웨이·에이전트 성능 개선, Control UI/WebChat 안정성, 메시징 채널 수정을 중심으로 살펴본다."
 tags:
