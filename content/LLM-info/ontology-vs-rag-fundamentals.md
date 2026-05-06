@@ -6,6 +6,10 @@ tags: ["온톨로지", "RAG", "GraphRAG", "지식그래프", "vectorDB", "AI"]
 categories: ["AI"]
 description: "AI 시대의 의미 인프라라는 말 뒤에서 자주 빠지는 핵심을 7가지로 정리했습니다. 결재 전에 확인할 점, 진짜 온톨로지가 필요한 회사, 그리고 먼저 해야 할 작은 일까지."
 slug: "ontology-vs-rag-fundamentals"
+cover:
+  image: /images/ontology-vs-rag-fundamentals-cover.jpg
+  alt: "온톨로지 vs RAG 기본기 — 7가지 결재 전 체크리스트 인포그래픽"
+  relative: false
 ---
 
 지난 1년 사이 온톨로지 마케팅이 다시 강해졌습니다. LLM 환각의 해결책, 데이터 사일로의 종결자, 에이전틱 AI의 가드레일. 슬라이드는 이렇게 묶이고, 결론은 거의 늘 같습니다. “그래서 의미 인프라를 구축해야 합니다.”
