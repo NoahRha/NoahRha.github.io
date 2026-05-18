@@ -1,8 +1,8 @@
 ---
-title: "YC CEO 가리 탄이 직접 만든 AI 에이전트의 '뇌' — GBrain 공개"
+title: "YC CEO Garry Tan이 직접 만든 AI 에이전트의 '뇌' — GBrain 공개"
 date: 2026-05-18T17:00:00+09:00
 draft: false
-description: "Y Combinator CEO 가리 탄이 실제로 운영하는 AI 에이전트( OpenClaw + Hermes )를 위한 지식그래프 시스템 GBrain이 오픈소스로 공개됐다. 17,888페이지 규모의 자가 배선 브레인과 34개 스킬을 살펴본다."
+description: "Y Combinator CEO Garry Tan이 실제로 운영하는 AI 에이전트( OpenClaw + Hermes )를 위한 지식그래프 시스템 GBrain이 오픈소스로 공개됐다. 17,888페이지 규모의 자가 배선 브레인과 34개 스킬을 살펴본다."
 tags:
   - GBrain
   - AI에이전트
@@ -10,7 +10,7 @@ tags:
   - OpenClaw
   - 지식그래프
   - YC
-  - 가리탄
+  - GarryTan
 categories:
   - OpenClaw
   - AI 에이전트
@@ -21,7 +21,7 @@ aliases:
 # YC CEO가 직접 만든 AI 에이전트의 '뇌', GBrain이 공개됐다
 
 AI 에이전트는 똑똑하지만 금방 잊어버린다.  
-그래서 가리 탄(Y Combinator President & CEO)은 **자신의 에이전트가 영원히 기억하고, 스스로 연결하고, 밤사이 더 똑똑해지게 만드는 ‘뇌’**를 만들었다. 그리고 그걸 오픈소스로 공개했다. 이름은 **GBrain**.
+그래서 Garry Tan(Y Combinator President & CEO)은 **자신의 에이전트가 영원히 기억하고, 스스로 연결하고, 밤사이 더 똑똑해지게 만드는 ‘뇌’**를 만들었다. 그리고 그걸 오픈소스로 공개했다. 이름은 **GBrain**.
 
 ## 12일 만에 만든, 17,888페이지짜리 살아있는 브레인
 
