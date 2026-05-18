@@ -1,6 +1,6 @@
 ---
 title: "YC CEO 가리 탄이 직접 만든 AI 에이전트의 '뇌' — GBrain 공개"
-date: 2026-05-18T20:00:00+09:00
+date: 2026-05-18T17:00:00+09:00
 draft: false
 description: "Y Combinator CEO 가리 탄이 실제로 운영하는 AI 에이전트( OpenClaw + Hermes )를 위한 지식그래프 시스템 GBrain이 오픈소스로 공개됐다. 17,888페이지 규모의 자가 배선 브레인과 34개 스킬을 살펴본다."
 tags:
