@@ -1,6 +1,6 @@
 ---
 title: "Claude의 ‘감정’은 진짜일까? AI가 인간 감정 연구에 던진 질문"
-date: 2026-05-18T22:30:00+09:00
+date: 2026-05-18T22:20:00+09:00
 draft: false
 description: "The Transmitter의 Nicole Rust 글을 바탕으로, Anthropic의 Claude가 보이는 감정 유사 패턴이 인간 감정 연구와 AI 안전성에 주는 의미를 정리했다."
 tags:
