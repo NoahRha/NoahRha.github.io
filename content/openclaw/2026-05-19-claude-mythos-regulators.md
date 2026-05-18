@@ -15,6 +15,10 @@ categories:
   - AI
 aliases:
   - /posts/2026-05-19-claude-mythos-regulators/
+cover:
+  image: "/images/anthropic-mythos-cover.png"
+  alt: "Claude Mythos가 발견한 사이버 취약점과 금융 규제 브리핑"
+  caption: ""
 ---
 
 추천태그: #ClaudeMythos #Anthropic #사이버보안 #금융규제 #AI위험
