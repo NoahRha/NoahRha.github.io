@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&amp;family=Noto+Serif+KR:wght@700&amp;display=swap');
+
+  .card {
+    width: 1080px;
+    height: 1080px;
+    background: #f8f1e3;
+    background-image: 
+      linear-gradient(#d4c4a8 1px, transparent 1px),
+      linear-gradient(90deg, #d4c4a8 1px, transparent 1px);
+    background-size: 40px 40px;
+    border: 12px solid #3a2f1f;
+    position: relative;
+    font-family: 'Noto Sans KR', system-ui, sans-serif;
+    overflow: hidden;
+  }
+
+  .header {
+    background: #3a2f1f;
+    color: #f8f1e3;
+    padding: 40px 60px 30px;
+    text-align: center;
+  }
+
+  .eyebrow {
+    font-size: 28px;
+    letter-spacing: 4px;
+    opacity: 0.9;
+    margin-bottom: 12px;
+  }
+
+  .title {
+    font-size: 52px;
+    line-height: 1.3;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .content {
+    padding: 60px;
+    font-size: 36px;
+    line-height: 1.6;
+    color: #3a2f1f;
+  }
+
+  .point {
+    margin-bottom: 28px;
+    padding-left: 20px;
+    border-left: 6px solid #8b6f47;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #3a2f1f;
+    color: #f8f1e3;
+    padding: 35px 60px;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .blog-url {
+    font-weight: 700;
+    color: #e8d5b7;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <!-- Header -->
+    <div class="header">
+      <div class="eyebrow">AI × 금융 규제</div>
+      <h1 class="title">Claude Mythos가<br>찾은 치명적 보안 결함</h1>
+    </div>
+
+    <!-- Body -->
+    <div class="content">
+      <div class="point">
+        Anthropic이 FSB(금융안정위원회)에<br>
+        Mythos 발견 취약점 직접 브리핑
+      </div>
+      <div class="point">
+        주요 OS·브라우저에서<br>
+        수천 건의 심각한 보안 결함 발견
+      </div>
+      <div class="point">
+        IMF "AI가 매크로 금융 충격<br>
+        일으킬 수 있다"고 경고
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div>noahrha.github.io</div>
+      <div class="blog-url">/openclaw/2026-05-19-claude-mythos-regulators</div>
+    </div>
+  </div>
+</body>
+</html>
