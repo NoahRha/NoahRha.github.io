@@ -16,9 +16,9 @@ categories:
 aliases:
   - /posts/2026-05-19-llm-six-months-five-minutes/
 cover:
-  image: "/images/simonwillison-5-minute-llms-cover.jpeg"
-  alt: "지난 6개월 LLM 변화 요약: coding agents와 local models"
-  caption: "Source: Simon Willison"
+  image: "/images/llm-six-months-ai-generated-cover.jpeg"
+  alt: "지난 6개월 LLM 변화: coding agents와 local models를 표현한 핸드드로잉 대표 이미지"
+  caption: "AI-generated editorial illustration"
 ---
 
 추천태그: #LLM #AI에이전트 #CodingAgents #LocalLLM #SimonWillison
