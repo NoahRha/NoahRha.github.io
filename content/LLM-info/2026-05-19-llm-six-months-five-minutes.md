@@ -16,9 +16,9 @@ categories:
 aliases:
   - /posts/2026-05-19-llm-six-months-five-minutes/
 cover:
-  image: "/images/llm-six-months-ai-generated-cover.jpeg"
-  alt: "지난 6개월 LLM 변화: coding agents와 local models를 표현한 핸드드로잉 대표 이미지"
-  caption: "AI-generated editorial illustration"
+  image: "/images/llm-six-months-handdrawn-topology-cover.png"
+  alt: "Hand-drawn topology diagram about six months of LLM progress, coding agents, local models, and developer tools"
+  caption: "Hand-drawn topology style illustration"
 ---
 
 추천태그: #LLM #AI에이전트 #CodingAgents #LocalLLM #SimonWillison
