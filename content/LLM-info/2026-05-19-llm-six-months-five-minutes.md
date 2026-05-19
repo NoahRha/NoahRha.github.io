@@ -16,9 +16,9 @@ categories:
 aliases:
   - /posts/2026-05-19-llm-six-months-five-minutes/
 cover:
-  image: "/images/llm-six-months-handdrawn-topology-cover.png"
-  alt: "Hand-drawn topology diagram about six months of LLM progress, coding agents, local models, and developer tools"
-  caption: "Hand-drawn topology style illustration"
+  image: "/images/llm-six-months-self-explanatory-cover.png"
+  alt: "Six months of LLM progress: model race, coding agents, local models, open models, and developer workflows"
+  caption: ""
 ---
 
 추천태그: #LLM #AI에이전트 #CodingAgents #LocalLLM #SimonWillison
@@ -30,25 +30,25 @@ cover:
 
 ---
 
-## 기: 6개월 만에 LLM 판이 또 바뀌었다
+## 6개월 만에 LLM 판이 또 바뀌었다
 
 LLM 세계는 반년만 지나도 완전히 다른 풍경이 된다. Simon Willison은 PyCon US 2026 라이트닝 토크에서 **지난 6개월의 LLM 변화**를 5분짜리 annotated slides로 압축했다.
 
 짧은 발표지만, 그 안에는 지금 AI 생태계의 방향을 읽을 수 있는 중요한 단서가 들어 있다.
 
-## 승: 최고 모델은 계속 바뀌고, agent는 강해졌다
+## 최고 모델은 계속 바뀌고, agent는 강해졌다
 
 Willison이 짚은 첫 번째 변화는 **최고 모델의 왕좌가 빠르게 바뀌었다**는 점이다. Anthropic, OpenAI, Google 사이에서 “best model”의 위치가 여러 번 이동했다.
 
 두 번째 변화는 coding agent의 성장이다. 단순히 코드를 제안하는 수준을 넘어, GitHub commit을 만들고 프로젝트 구조를 이해하며 실제 개발 흐름에 들어오기 시작했다. Reinforcement Learning from Verifiable Rewards 같은 접근이 이 흐름을 더 밀어 올렸다.
 
-## 전: local LLM이 기대를 넘어섰다
+## local LLM이 기대를 넘어섰다
 
 흥미로운 지점은 local LLM이다. Willison은 Qwen3.6-35B-A3B 같은 모델이 노트북에서 돌면서도 예상보다 강한 결과를 냈다고 소개한다. Gemma 4, GLM-5.1 등 다양한 모델도 예시로 등장한다.
 
 즉, AI 경쟁은 거대 클라우드 모델만의 이야기가 아니다. 점점 더 많은 실험이 개인 장비와 오픈 모델 위에서 가능해지고 있다.
 
-## 결: 다음 6개월의 관전 포인트
+## 다음 6개월의 관전 포인트
 
 이번 정리의 핵심은 명확하다. 앞으로 LLM 경쟁은 모델 이름보다 **실제 사용성**에서 갈릴 가능성이 크다.
 
