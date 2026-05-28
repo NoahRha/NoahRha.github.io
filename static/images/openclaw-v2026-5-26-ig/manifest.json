@@ -1,0 +1,18 @@
+{
+  "slug": "openclaw-v2026-5-26-release-notes",
+  "created_at": "2026-05-28T15:53:36+09:00",
+  "source_blog_url": "https://noahrha.github.io/posts/openclaw-v2026-5-26-release-notes/",
+  "theme": "clean-light",
+  "size": "1080x1350",
+  "renderer": "pillow",
+  "cover_background_image": "static/images/openclaw-v2026-5-26-release-notes-cover.png",
+  "status": "draft",
+  "approval_required": true,
+  "cards": [
+    "card-01.png",
+    "card-02.png",
+    "card-03.png",
+    "card-04.png",
+    "card-05.png"
+  ]
+}
