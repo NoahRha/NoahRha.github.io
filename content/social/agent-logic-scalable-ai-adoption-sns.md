@@ -3,7 +3,7 @@
 원문: `content/LLM-info/agent-logic-scalable-ai-adoption.md`
 블로그 URL: `https://noahrha.github.io/LLM-info/agent-logic-scalable-ai-adoption/`
 주제: LLM 단독 접근보다 Agent Logic이 기업 AI 확장성에 중요한 이유
-대표 비주얼: LLM의 무한 컨텍스트 문제 → Agent Logic 제어층 → 지식그래프·프로그램 분석·정책·관측성으로 이어지는 구조도
+대표 비주얼: 핸드드로잉 스타일로 통일한 LLM의 무한 컨텍스트 문제 → Agent Logic 제어층 → 지식그래프·프로그램 분석·정책·관측성 구조
 
 ---
 

@@ -3,11 +3,12 @@
   "blog_title": "Agent Logic",
   "blog_url": "https://noahrha.github.io/LLM-info/agent-logic-scalable-ai-adoption/",
   "brand": "Tech Blog",
-  "theme": "techllm-dark",
+  "theme": "handdrawn-paper",
+  "image_style": "hand-drawn ink illustration with warm paper texture, subtle watercolor wash, consistent 1:1 square format, no photorealistic/infographic/vector-card style",
   "size": "1080x1080",
   "output_dir": "static/images/agent-logic-scalable-ai-adoption-ig",
   "cover_background_image": "static/images/agent-logic-scalable-ai-adoption-cover.png",
-  "cover_overlay_opacity": 170,
+  "cover_overlay_opacity": 0,
   "cards": [
     {
       "type": "cover",

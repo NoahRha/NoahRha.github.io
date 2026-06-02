@@ -15,8 +15,8 @@ categories:
 slug: "agent-logic-scalable-ai-adoption"
 cover:
   image: "/images/agent-logic-scalable-ai-adoption-cover.png"
-  alt: "LLM과 Agent Logic을 비교한 기업 AI 워크플로 다이어그램"
-  caption: "Agent Logic이 기업 AI 워크플로를 안내하는 구조"
+  alt: "핸드드로잉 스타일로 LLM의 맥락 폭증과 Agent Logic 제어층, 지식그래프와 정책 레이어를 연결해 보여주는 기업 AI 구조 요약 이미지"
+  caption: "핸드드로잉 스타일로 정리한 Agent Logic의 기업 AI 제어 구조"
 ---
 
 LLM을 더 크게 만들면 기업 AI 도입도 자연스럽게 풀릴까요. IBM Research가 Hugging Face에 공개한 글은 그 답을 꽤 분명하게 나눕니다. 모델 자체보다 중요한 것은 모델이 업무 흐름을 벗어나지 않게 붙잡아 주는 **Agent Logic**입니다.
