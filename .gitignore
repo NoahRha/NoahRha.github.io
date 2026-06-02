@@ -1,2 +1,42 @@
 public/
 .hugo_build.lock
+
+# Local/private workspace state
+.DS_Store
+.claude/
+.clawhub/
+.openclaw/
+.openclaw-cli-images/
+_ingestor_state/
+_workspace/
+_sources/
+risp_state/
+tmp/
+output/
+memory/
+
+# Agent identity/bootstrap files are private workspace context, not site content.
+AGENTS.md
+MEMORY.md
+SOUL.md
+DREAMS.md
+TOOLS.md
+USER.md
+IDENTITY.md
+HEARTBEAT.md
+
+# Secrets and local environment files
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*_token*
+*_secret*
+__pycache__/
+*.py[cod]
+
+# Generated run logs and transient automation outputs
+data/
+sns-cardnews/
