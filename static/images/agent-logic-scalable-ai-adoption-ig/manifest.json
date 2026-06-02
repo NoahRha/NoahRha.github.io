@@ -1,0 +1,18 @@
+{
+  "slug": "agent-logic-scalable-ai-adoption",
+  "created_at": "2026-06-02T18:50:06+09:00",
+  "source_blog_url": "https://noahrha.github.io/LLM-info/agent-logic-scalable-ai-adoption/",
+  "theme": "techllm-dark",
+  "size": "1080x1080",
+  "renderer": "pillow",
+  "cover_background_image": "",
+  "status": "draft",
+  "approval_required": true,
+  "cards": [
+    "card-01.png",
+    "card-02.png",
+    "card-03.png",
+    "card-04.png",
+    "card-05.png"
+  ]
+}
