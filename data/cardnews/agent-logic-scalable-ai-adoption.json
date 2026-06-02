@@ -6,35 +6,37 @@
   "theme": "techllm-dark",
   "size": "1080x1080",
   "output_dir": "static/images/agent-logic-scalable-ai-adoption-ig",
+  "cover_background_image": "static/images/agent-logic-scalable-ai-adoption-cover.png",
+  "cover_overlay_opacity": 170,
   "cards": [
     {
       "type": "cover",
-      "eyebrow": "Enterprise AI",
-      "title": "LLM만으로는\n부족하다",
-      "subtitle": "IBM이 말하는 Agent Logic의 조건"
+      "eyebrow": "Enterprise AI Map",
+      "title": "LLM을 업무로\n바꾸는 구조",
+      "subtitle": "Agent Logic 한 장 요약"
     },
     {
       "type": "point",
       "number": "01",
-      "title": "기업 업무는\n길고 복잡합니다",
-      "body": "API, 데이터베이스, 정책, 규정이 함께 움직입니다. LLM에게 전부 읽히는 방식은 금세 비싸지고 흔들립니다."
+      "title": "문제는\n무한한 맥락입니다",
+      "body": "문서, API, DB, 코드, 로그, 티켓이 한꺼번에 몰립니다. LLM에게 전부 읽히면 비용과 품질이 동시에 흔들립니다."
     },
     {
       "type": "point",
       "number": "02",
-      "title": "Agent Logic은\n볼 범위를 좁힙니다",
-      "body": "지식그래프, 프로그램 분석, 알고리즘이 모델이 봐야 할 근거와 다음 단계를 안내합니다."
+      "title": "Agent Logic은\n제어층입니다",
+      "body": "의도 이해, 계획 분해, 도구 선택, 실행 오케스트레이션을 맡아 모델이 필요한 근거만 보게 만듭니다."
     },
     {
       "type": "point",
       "number": "03",
-      "title": "정책이 신뢰를\n만듭니다",
-      "body": "에이전트가 추론하더라도 권한과 실행은 policy-as-code, 감사 체계, 사람의 승인으로 제한해야 합니다."
+      "title": "네 가지 장치가\n확장성을 만듭니다",
+      "body": "지식그래프, 프로그램 분석, 정책-as-code, 관측성이 함께 붙어야 기업 AI가 반복 가능하고 감사 가능해집니다."
     },
     {
       "type": "cta",
-      "title": "기업 AI의 핵심은\n모델 크기보다 구조",
-      "body": "Agent Logic 관점으로 IBM Research 글을 정리했습니다.",
+      "title": "큰 모델보다\n중요한 것은 구조",
+      "body": "IBM Research의 Agent Logic 글을 기업 AI 도입 관점에서 정리했습니다.",
       "cta": "블로그에서 보기"
     }
   ]
