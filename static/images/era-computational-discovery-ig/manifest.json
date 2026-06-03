@@ -1,0 +1,36 @@
+{
+  "slug": "era-computational-discovery-google-research",
+  "style": "handdrawn-paper",
+  "aspect_ratio": "1:1",
+  "size": "1080x1080",
+  "model_provider": "gpt-image-2",
+  "final_visual_generation_allowed_models": ["gpt-image-2", "Minimax"],
+  "forbidden_generators": ["Bonsai", "Local Bonsai", "Gemini", "Pillow", "ImageDraw", "SVG", "HTML", "CSS", "Playwright"],
+  "cards": [
+    {
+      "file": "card-01.png",
+      "slide": "과학 AI의 다음 무대는 답변이 아니라 실험 코드입니다",
+      "source_visual": "gpt-image-2 generated image"
+    },
+    {
+      "file": "card-02.png",
+      "slide": "ERA는 문제와 성공 기준을 받아 문헌 탐색, 코드 작성, 해법 조합, 평가를 반복합니다",
+      "source_visual": "gpt-image-2 generated image"
+    },
+    {
+      "file": "card-03.png",
+      "slide": "공중보건, CO2 지도화, 유출수 예측, 태양광 설계까지 실제 문제에 적용됐습니다",
+      "source_visual": "gpt-image-2 generated image"
+    },
+    {
+      "file": "card-04.png",
+      "slide": "Computational Discovery는 이 반복 실험 루프를 과학 도구로 묶으려는 시도입니다",
+      "source_visual": "gpt-image-2 generated image"
+    },
+    {
+      "file": "card-05.png",
+      "slide": "좋은 과학 AI는 전문가를 대체하기보다 더 많은 후보를 더 빨리 검토하게 만듭니다",
+      "source_visual": "gpt-image-2 generated image"
+    }
+  ]
+}
