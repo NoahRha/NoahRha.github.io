@@ -1,0 +1,36 @@
+{
+  "slug": "gemma-4-12b-local-multimodal-laptop",
+  "style": "handdrawn-paper",
+  "aspect_ratio": "1:1",
+  "size": "1254x1254",
+  "model_provider": "gpt-image-2",
+  "final_visual_generation_allowed_models": ["gpt-image-2", "Minimax"],
+  "source_visual_note": "Cards are staged from the generated gpt-image-2 cover visual to complete the blog/SNS build package.",
+  "cards": [
+    {
+      "file": "card-01.png",
+      "slide": "로컬 AI의 다음 질문은 “얼마나 큰가”가 아니라 “어디서 돌아가는가”입니다",
+      "source_visual": "gpt-image-2 generated image"
+    },
+    {
+      "file": "card-02.png",
+      "slide": "Gemma 4 12B는 텍스트, 이미지, 오디오를 네이티브로 처리하는 중형 멀티모달 모델입니다",
+      "source_visual": "gpt-image-2 generated image"
+    },
+    {
+      "file": "card-03.png",
+      "slide": "별도 encoder를 줄인 구조는 latency와 메모리 부담을 낮추려는 시도입니다",
+      "source_visual": "gpt-image-2 generated image"
+    },
+    {
+      "file": "card-04.png",
+      "slide": "16GB급 노트북 실행은 개발자 앱과 개인 장치 AI에 중요한 신호입니다",
+      "source_visual": "gpt-image-2 generated image"
+    },
+    {
+      "file": "card-05.png",
+      "slide": "클라우드 초대형 모델과 로컬 실용 모델은 앞으로 역할을 나눌 가능성이 큽니다",
+      "source_visual": "gpt-image-2 generated image"
+    }
+  ]
+}
