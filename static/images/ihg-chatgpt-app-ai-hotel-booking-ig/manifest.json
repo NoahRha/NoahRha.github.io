@@ -1,0 +1,31 @@
+{
+  "slug": "ihg-chatgpt-app-ai-hotel-booking",
+  "style": "handdrawn-paper",
+  "aspect_ratio": "1:1",
+  "size": "1254x1254",
+  "model_provider": "gpt-image-2",
+  "final_visual_generation_allowed_models": ["gpt-image-2", "Minimax"],
+  "source_visual_note": "Cards are staged from the generated gpt-image-2 hand-drawn cover visual to complete the blog/SNS build package.",
+  "cards": [
+    {
+      "file": "card-01.png",
+      "slide": "호텔 예약 검색이 ChatGPT 안으로 들어오기 시작했습니다"
+    },
+    {
+      "file": "card-02.png",
+      "slide": "IHG 앱은 7,000개 이상 호텔을 자연어로 검색하고 비교하게 돕습니다"
+    },
+    {
+      "file": "card-03.png",
+      "slide": "가격, 예약 가능 여부, 지도, 편의시설이 AI 대화 안에서 함께 보입니다"
+    },
+    {
+      "file": "card-04.png",
+      "slide": "최종 예약은 IHG 직접 채널로 이어져 고객 관계를 지킵니다"
+    },
+    {
+      "file": "card-05.png",
+      "slide": "호텔 검색 경쟁은 이제 웹사이트 밖, AI 인터페이스까지 넓어졌습니다"
+    }
+  ]
+}
