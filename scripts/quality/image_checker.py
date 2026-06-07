@@ -279,9 +279,23 @@ def _audit_one(path: Path, expected_style: str | None) -> dict[str, Any]:
     size = path.stat().st_size if path.exists() else 0
     checks["size_bytes"] = size
     magic = _read_magic(path, 16) if path.exists() else b""
+    # SHA-256 is computed for *every* file (even 0-byte) so the global
+    # dedup pass never crashes on a missing key. 0-byte files hash to the
+    # well-known SHA-256 of the empty string ("e3b0c44...") which means
+    # a folder full of 0-byte files will trip the dedup rule — a feature,
+    # not a bug: 5+ identical 0-byte files are clearly the same generator
+    # failure repeated.
+    checks["sha256"] = _sha256(path)
     if size == 0:
         issues.append("0-byte file (generation failed?)")
-        return {"path": str(path), "score": 0, "issues": issues, "suggestions": ["regenerate"], "checks": checks}
+        return {
+            "path": str(path),
+            "filename": path.name,
+            "score": 0,
+            "issues": issues,
+            "suggestions": ["regenerate"],
+            "checks": checks,
+        }
     if not (_is_png(magic) or _is_jpg(magic) or _is_webp(magic)):
         issues.append(f"bad magic bytes (not PNG/JPG/WEBP): {magic[:8]!r}")
     if size < MIN_BYTES:
@@ -289,10 +303,6 @@ def _audit_one(path: Path, expected_style: str | None) -> dict[str, Any]:
         suggestions.append("regenerate with non-trivial output (>5KB)")
     if _is_truncated(path):
         issues.append("image is truncated (PIL could not decode fully)")
-
-    # Metadata — SHA-256 is computed regardless (used by the global dedup pass)
-    sha = _sha256(path)
-    checks["sha256"] = sha
 
     # Visual diversity / placeholder detection
     rgb = _mean_rgb(path)

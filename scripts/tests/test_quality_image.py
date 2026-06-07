@@ -304,6 +304,46 @@ def test_check_images_threshold_override(tmp_path: Path) -> None:
     assert result["pass"]
 
 
+def test_check_images_zero_byte_file_fails_end_to_end(tmp_path: Path) -> None:
+    """Verifier-requested end-to-end test: a 0-byte file in the directory
+    must cause ``check_images()`` (not just ``_audit_one``) to return a
+    failing result. The 0-byte file should appear in ``per_image`` with a
+    score of 0 and the per-image issue must propagate to the top-level
+    ``issues`` list so the audit consumer can act on it.
+    """
+    d = tmp_path / "imgs"
+    d.mkdir()
+    # The healthy image is 1024x1024 with random RGB noise so the PNG is
+    # large enough to clear the 5KB placeholder threshold (single-color
+    # 1024x1024 PNGs compress below 5KB and would themselves be flagged).
+    from PIL import Image
+    import random
+    random.seed(42)
+    good_path = d / "good.png"
+    im = Image.new("RGB", (1024, 1024))
+    im.putdata([(random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)) for _ in range(1024 * 1024)])
+    im.save(good_path, format="PNG", optimize=False)
+    assert good_path.stat().st_size > 5 * 1024, "test fixture should be > 5KB"
+    (d / "zero.png").write_bytes(b"")
+    (d / "tiny.png").write_bytes(b"\x89PNG\r\n\x1a\n" + b"x" * 100)
+    result = check_images(d, style="hand-drawing")
+    # The folder as a whole is unpublishable.
+    assert not result["pass"], result
+    assert result["score"] < DEFAULT_MIN_SCORE
+    # The 0-byte file is in per_image with score 0 and a 0-byte issue.
+    zero = next((pi for pi in result["per_image"] if pi["filename"] == "zero.png"), None)
+    assert zero is not None
+    assert zero["score"] == 0
+    assert any("0-byte" in i for i in zero["issues"])
+    # The 0-byte issue is also surfaced at the top level (audit consumer
+    # reads ``result['issues']``).
+    assert any("zero.png" in i and "0-byte" in i for i in result["issues"])
+    # The tiny placeholder PNG is also flagged.
+    assert any("tiny.png" in i for i in result["issues"])
+    # The healthy image is not falsely blamed.
+    assert not any("good.png" in i for i in result["issues"])
+
+
 # ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
