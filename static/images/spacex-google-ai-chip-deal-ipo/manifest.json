@@ -1,0 +1,238 @@
+{
+  "slug": "spacex-google-ai-chip-deal-ipo",
+  "style": "hand-drawing",
+  "profile": "default",
+  "fallback_order": [
+    "gpt-image-2",
+    "minimax-portal/image-01"
+  ],
+  "assets": [
+    {
+      "id": "cover",
+      "model": "gpt-image-2",
+      "provider": "openai",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "Square 1:1 masterful hand-drawn ink editorial illustration, expert pen strokes and detailed cross-hatching, no readable text, no labels, no human faces. A SpaceX-like rocket hangar quietly transformed into an AI compute warehouse: rocket silhouette in the background, dense GPU server racks glowing softly, cloud network lines connecting to a distant office skyline. Sophisticated technology journalism mood, polished blog cover artwork, monochrome ink with subtle blue accent, clean composition.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/spacex-google-ai-chip-deal-ipo/spacex-google-ai-chip-deal-ipo-cover.png",
+      "output_path": "static/images/spacex-google-ai-chip-deal-ipo/spacex-google-ai-chip-deal-ipo-cover.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-07T15:46:13+09:00",
+          "model": "gpt-image-2",
+          "provider": "openai",
+          "generated_path": "/Users/noah/.openclaw/agents/blogger/agent/codex-home/generated_images/019e9fff-3ee6-7f83-87cf-a59c4203b9a0/ig_0a88e24f9a980bd5016a250ff2653081919b49c58f500f44f7.png",
+          "output_path": "static/images/spacex-google-ai-chip-deal-ipo/spacex-google-ai-chip-deal-ipo-cover.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "body-1",
+      "model": "gpt-image-2",
+      "provider": "openai",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "masterful hand-drawn ink editorial illustration, expert pen strokes, detailed cross-hatching, no readable text, no labels, no human faces. supporting body illustration that explains the first key mechanism. Topic: SpaceX와 Google의 11만 Nvidia AI 칩 계약, AI 인프라 임대 시장이 열렸다. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/spacex-google-ai-chip-deal-ipo/spacex-google-ai-chip-deal-ipo-body-01.png",
+      "output_path": "static/images/spacex-google-ai-chip-deal-ipo/spacex-google-ai-chip-deal-ipo-body-01.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-07T15:46:13+09:00",
+          "model": "gpt-image-2",
+          "provider": "openai",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/spacex-google-ai-chip-deal-ipo/spacex-google-ai-chip-deal-ipo-body-01.png",
+          "output_path": "static/images/spacex-google-ai-chip-deal-ipo/spacex-google-ai-chip-deal-ipo-body-01.png",
+          "status": "copied",
+          "repaired": true
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "threads",
+      "model": "gpt-image-2",
+      "provider": "openai",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "Create a square 1:1 professional hand-drawn ink editorial illustration. Four-panel wordless comic about SpaceX, Google, AI chip capacity, cloud demand, and AI infrastructure rental. No readable text, no labels, no human faces.",
+      "generated_path": "/Users/noah/.openclaw/agents/blogger/agent/codex-home/generated_images/019ea14a-f340-7fa2-8f18-b834f39746bc/ig_0776020224e660fd016a25335ab68081919b4888e72b70d62c.png",
+      "output_path": "static/images/spacex-google-ai-chip-deal-ipo/spacex-google-ai-chip-deal-ipo-threads-comic.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-07T18:05:02+09:00",
+          "model": "gpt-image-2",
+          "provider": "openai",
+          "generated_path": "/Users/noah/.openclaw/agents/blogger/agent/codex-home/generated_images/019ea14a-f340-7fa2-8f18-b834f39746bc/ig_0776020224e660fd016a25335ab68081919b4888e72b70d62c.png",
+          "output_path": "static/images/spacex-google-ai-chip-deal-ipo/spacex-google-ai-chip-deal-ipo-threads-comic.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "body-2",
+      "model": "gpt-image-2",
+      "provider": "openai",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "Square 1:1 masterful hand-drawn ink editorial illustration, expert pen strokes, detailed cross-hatching, no readable text, no labels, no human faces. Supporting body illustration for the practical implication of SpaceX renting 110,000 Nvidia AI chips through Google before an IPO: a vast orbital logistics network, server racks as distant constellations, a rocket silhouette, cloud infrastructure, compute capacity becoming a leased utility. Polished blog artwork, high-detail black ink with subtle warm paper texture, professional editorial quality.",
+      "generated_path": "/Users/noah/.openclaw/agents/blogger/agent/codex-home/generated_images/019ea160-f742-7943-a06b-e30cf2d4d56d/ig_0c6aa4adf87f8fc9016a2537daf55081918d143e3a994af3f2.png",
+      "output_path": "static/images/spacex-google-ai-chip-deal-ipo/spacex-google-ai-chip-deal-ipo-body-02.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-07T18:22:19+09:00",
+          "model": "gpt-image-2",
+          "provider": "openai",
+          "generated_path": "/Users/noah/.openclaw/agents/blogger/agent/codex-home/generated_images/019ea160-f742-7943-a06b-e30cf2d4d56d/ig_0c6aa4adf87f8fc9016a2537daf55081918d143e3a994af3f2.png",
+          "output_path": "static/images/spacex-google-ai-chip-deal-ipo/spacex-google-ai-chip-deal-ipo-body-02.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-1",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "masterful hand-drawn ink editorial illustration, expert pen strokes, detailed cross-hatching, no readable text, no labels, no human faces. Instagram carousel slide 1, visual hook illustration. Topic: SpaceX와 Google의 11만 Nvidia AI 칩 계약, AI 인프라 임대 시장이 열렸다. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/spacex-google-ai-chip-deal-ipo/card-01.png",
+      "output_path": "static/images/spacex-google-ai-chip-deal-ipo/card-01.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-08T00:03:19+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/spacex-google-ai-chip-deal-ipo/card-01.png",
+          "output_path": "static/images/spacex-google-ai-chip-deal-ipo/card-01.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-2",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "masterful hand-drawn ink editorial illustration, expert pen strokes, detailed cross-hatching, no readable text, no labels, no human faces. Instagram carousel slide 2, first key point illustration. Topic: SpaceX와 Google의 11만 Nvidia AI 칩 계약, AI 인프라 임대 시장이 열렸다. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/spacex-google-ai-chip-deal-ipo/card-02.png",
+      "output_path": "static/images/spacex-google-ai-chip-deal-ipo/card-02.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-08T00:03:19+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/spacex-google-ai-chip-deal-ipo/card-02.png",
+          "output_path": "static/images/spacex-google-ai-chip-deal-ipo/card-02.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-3",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "masterful hand-drawn ink editorial illustration, expert pen strokes, detailed cross-hatching, no readable text, no labels, no human faces. Instagram carousel slide 3, second key point illustration. Topic: SpaceX와 Google의 11만 Nvidia AI 칩 계약, AI 인프라 임대 시장이 열렸다. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/spacex-google-ai-chip-deal-ipo/card-03.png",
+      "output_path": "static/images/spacex-google-ai-chip-deal-ipo/card-03.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-08T00:03:19+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/spacex-google-ai-chip-deal-ipo/card-03.png",
+          "output_path": "static/images/spacex-google-ai-chip-deal-ipo/card-03.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-4",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "masterful hand-drawn ink editorial illustration, expert pen strokes, detailed cross-hatching, no readable text, no labels, no human faces. Instagram carousel slide 4, third key point illustration. Topic: SpaceX와 Google의 11만 Nvidia AI 칩 계약, AI 인프라 임대 시장이 열렸다. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/spacex-google-ai-chip-deal-ipo/card-04.png",
+      "output_path": "static/images/spacex-google-ai-chip-deal-ipo/card-04.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-08T00:03:19+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/spacex-google-ai-chip-deal-ipo/card-04.png",
+          "output_path": "static/images/spacex-google-ai-chip-deal-ipo/card-04.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-5",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "masterful hand-drawn ink editorial illustration, expert pen strokes, detailed cross-hatching, no readable text, no labels, no human faces. Instagram carousel slide 5, conclusion and CTA mood illustration. Topic: SpaceX와 Google의 11만 Nvidia AI 칩 계약, AI 인프라 임대 시장이 열렸다. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/spacex-google-ai-chip-deal-ipo/card-05.png",
+      "output_path": "static/images/spacex-google-ai-chip-deal-ipo/card-05.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-08T00:03:19+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/spacex-google-ai-chip-deal-ipo/card-05.png",
+          "output_path": "static/images/spacex-google-ai-chip-deal-ipo/card-05.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    }
+  ],
+  "finalized_at": "2026-06-08T00:03:23+09:00"
+}
