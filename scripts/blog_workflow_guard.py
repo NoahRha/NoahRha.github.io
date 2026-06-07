@@ -723,6 +723,18 @@ def cmd_audit(args: argparse.Namespace) -> int:
     if "blocked_reason" in state:
         state.pop("blocked_reason", None)
     save_state(args.slug, state)
+
+    if args.stage == "complete":
+        # Track-C 2026-06-07: best-effort retrospective hook. Failures here
+        # are logged to stderr but never affect the audit's own pass/fail.
+        try:
+            run_retrospective_hook(args.slug, state)
+        except Exception as exc:  # pragma: no cover - defensive
+            print(
+                f"[WARN] retrospective hook failed for {args.slug}: {exc}",
+                file=sys.stderr,
+            )
+
     return 0
 
 
