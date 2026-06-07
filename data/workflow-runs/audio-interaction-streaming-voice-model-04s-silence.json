@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "slug": "audio-interaction-streaming-voice-model-04s-silence",
+  "title": "0.4초마다 듣고 결정한다, 오픈소스 음성 모델 Audio-Interaction의 새 대화 방식",
+  "source_url": "https://the-decoder.com/new-open-source-voice-model-listens-nonstop-and-decides-every-0-4-seconds-whether-to-speak-or-stay-silent/",
+  "style": "oil",
+  "mode": "blog-sns",
+  "status": "AUDIT_PRECOMMIT_OK",
+  "created_at": "2026-06-08T02:18:25+09:00",
+  "updated_at": "2026-06-08T02:26:33+09:00",
+  "paths": {
+    "post": "content/LLM-info/audio-interaction-streaming-voice-model-04s-silence.md",
+    "sns": "content/social/audio-interaction-streaming-voice-model-04s-silence-sns.md",
+    "image_dir": "static/images/audio-interaction-streaming-voice-model-04s-silence",
+    "image_plan": "data/image-plans/audio-interaction-streaming-voice-model-04s-silence.json"
+  },
+  "required_gates": [
+    "source_url_locked",
+    "post_file_exists",
+    "sns_file_exists",
+    "required_images_exist",
+    "image_plan_complete",
+    "hugo_build_success",
+    "claude_or_gpt_review_recorded",
+    "minimax_text_revision_recorded",
+    "humanize_and_poetry_review_recorded"
+  ],
+  "review": {
+    "claude": "done",
+    "gpt_fallback": "not_needed",
+    "minimax": "done",
+    "minimax_revisions": 2,
+    "humanize_korean": "done",
+    "poetry_rhythm": "done"
+  },
+  "harness": {
+    "enabled": true,
+    "intensity": "strong",
+    "status": "text_reviewed"
+  },
+  "notes": [
+    {
+      "timestamp": "2026-06-08T02:21:08+09:00",
+      "text": "humanize-korean 보수 모드 + Minimax 2회 보완(번역투 제거 → 호흡/리듬 검토) + Claude 1차 검토 완료"
+    }
+  ]
+}
