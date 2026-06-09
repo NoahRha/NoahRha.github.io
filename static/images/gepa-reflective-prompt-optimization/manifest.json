@@ -1,0 +1,309 @@
+{
+  "slug": "gepa-reflective-prompt-optimization",
+  "style": "hand-drawing",
+  "profile": "default",
+  "fallback_order": [
+    "gpt-image-2",
+    "minimax-portal/image-01"
+  ],
+  "assets": [
+    {
+      "id": "cover",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "masterful hand-drawn ink editorial illustration, expert pen strokes, detailed cross-hatching, no readable text, no labels, no human faces. single visual metaphor for the blog's core message. Topic: GEPA로 짓는 반사형 프롬프트 최적화: 다중 컴포넌트와 구조화 피드백, 홀드아웃 검증. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "static/images/gepa-reflective-prompt-optimization/gepa-reflective-prompt-optimization-cover.png",
+      "output_path": "static/images/gepa-reflective-prompt-optimization/gepa-reflective-prompt-optimization-cover.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-08T11:34:52+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "static/images/gepa-reflective-prompt-optimization/gepa-reflective-prompt-optimization-cover.png",
+          "output_path": "static/images/gepa-reflective-prompt-optimization/gepa-reflective-prompt-optimization-cover.png",
+          "status": "copied"
+        },
+        {
+          "timestamp": "2026-06-08T11:35:02+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "static/images/gepa-reflective-prompt-optimization/gepa-reflective-prompt-optimization-cover.png",
+          "output_path": "static/images/gepa-reflective-prompt-optimization/gepa-reflective-prompt-optimization-cover.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "body-1",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "masterful hand-drawn ink editorial illustration, expert pen strokes, detailed cross-hatching, no readable text, no labels, no human faces. supporting body illustration that explains the first key mechanism. Topic: GEPA로 짓는 반사형 프롬프트 최적화: 다중 컴포넌트와 구조화 피드백, 홀드아웃 검증. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "static/images/gepa-reflective-prompt-optimization/gepa-reflective-prompt-optimization-body-01.png",
+      "output_path": "static/images/gepa-reflective-prompt-optimization/gepa-reflective-prompt-optimization-body-01.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-08T11:34:52+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "static/images/gepa-reflective-prompt-optimization/gepa-reflective-prompt-optimization-body-01.png",
+          "output_path": "static/images/gepa-reflective-prompt-optimization/gepa-reflective-prompt-optimization-body-01.png",
+          "status": "copied"
+        },
+        {
+          "timestamp": "2026-06-08T11:35:02+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "static/images/gepa-reflective-prompt-optimization/gepa-reflective-prompt-optimization-body-01.png",
+          "output_path": "static/images/gepa-reflective-prompt-optimization/gepa-reflective-prompt-optimization-body-01.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "threads",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "masterful hand-drawn ink editorial illustration, expert pen strokes, detailed cross-hatching, no readable text, no labels, no human faces. four-panel comic layout summarizing the blog idea without text. Topic: GEPA로 짓는 반사형 프롬프트 최적화: 다중 컴포넌트와 구조화 피드백, 홀드아웃 검증. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "static/images/gepa-reflective-prompt-optimization/gepa-reflective-prompt-optimization-threads-comic.png",
+      "output_path": "static/images/gepa-reflective-prompt-optimization/gepa-reflective-prompt-optimization-threads-comic.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-08T11:34:52+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "static/images/gepa-reflective-prompt-optimization/gepa-reflective-prompt-optimization-threads-comic.png",
+          "output_path": "static/images/gepa-reflective-prompt-optimization/gepa-reflective-prompt-optimization-threads-comic.png",
+          "status": "copied"
+        },
+        {
+          "timestamp": "2026-06-08T11:35:02+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "static/images/gepa-reflective-prompt-optimization/gepa-reflective-prompt-optimization-threads-comic.png",
+          "output_path": "static/images/gepa-reflective-prompt-optimization/gepa-reflective-prompt-optimization-threads-comic.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "body-2",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "masterful hand-drawn ink editorial illustration, expert pen strokes, detailed cross-hatching, no readable text, no labels, no human faces. supporting body illustration for the practical implication. Topic: GEPA로 짓는 반사형 프롬프트 최적화: 다중 컴포넌트와 구조화 피드백, 홀드아웃 검증. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "static/images/gepa-reflective-prompt-optimization/gepa-reflective-prompt-optimization-body-02.png",
+      "output_path": "static/images/gepa-reflective-prompt-optimization/gepa-reflective-prompt-optimization-body-02.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-08T11:34:52+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "static/images/gepa-reflective-prompt-optimization/gepa-reflective-prompt-optimization-body-02.png",
+          "output_path": "static/images/gepa-reflective-prompt-optimization/gepa-reflective-prompt-optimization-body-02.png",
+          "status": "copied"
+        },
+        {
+          "timestamp": "2026-06-08T11:35:02+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "static/images/gepa-reflective-prompt-optimization/gepa-reflective-prompt-optimization-body-02.png",
+          "output_path": "static/images/gepa-reflective-prompt-optimization/gepa-reflective-prompt-optimization-body-02.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-1",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "masterful hand-drawn ink editorial illustration, expert pen strokes, detailed cross-hatching, no readable text, no labels, no human faces. Instagram carousel slide 1, visual hook illustration. Topic: GEPA로 짓는 반사형 프롬프트 최적화: 다중 컴포넌트와 구조화 피드백, 홀드아웃 검증. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "static/images/gepa-reflective-prompt-optimization/card-01.png",
+      "output_path": "static/images/gepa-reflective-prompt-optimization/card-01.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-08T11:34:52+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "static/images/gepa-reflective-prompt-optimization/card-01.png",
+          "output_path": "static/images/gepa-reflective-prompt-optimization/card-01.png",
+          "status": "copied"
+        },
+        {
+          "timestamp": "2026-06-08T11:35:02+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "static/images/gepa-reflective-prompt-optimization/card-01.png",
+          "output_path": "static/images/gepa-reflective-prompt-optimization/card-01.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-2",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "masterful hand-drawn ink editorial illustration, expert pen strokes, detailed cross-hatching, no readable text, no labels, no human faces. Instagram carousel slide 2, first key point illustration. Topic: GEPA로 짓는 반사형 프롬프트 최적화: 다중 컴포넌트와 구조화 피드백, 홀드아웃 검증. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "static/images/gepa-reflective-prompt-optimization/card-02.png",
+      "output_path": "static/images/gepa-reflective-prompt-optimization/card-02.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-08T11:34:52+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "static/images/gepa-reflective-prompt-optimization/card-02.png",
+          "output_path": "static/images/gepa-reflective-prompt-optimization/card-02.png",
+          "status": "copied"
+        },
+        {
+          "timestamp": "2026-06-08T11:35:02+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "static/images/gepa-reflective-prompt-optimization/card-02.png",
+          "output_path": "static/images/gepa-reflective-prompt-optimization/card-02.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-3",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "masterful hand-drawn ink editorial illustration, expert pen strokes, detailed cross-hatching, no readable text, no labels, no human faces. Instagram carousel slide 3, second key point illustration. Topic: GEPA로 짓는 반사형 프롬프트 최적화: 다중 컴포넌트와 구조화 피드백, 홀드아웃 검증. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "static/images/gepa-reflective-prompt-optimization/card-03.png",
+      "output_path": "static/images/gepa-reflective-prompt-optimization/card-03.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-08T11:34:52+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "static/images/gepa-reflective-prompt-optimization/card-03.png",
+          "output_path": "static/images/gepa-reflective-prompt-optimization/card-03.png",
+          "status": "copied"
+        },
+        {
+          "timestamp": "2026-06-08T11:35:02+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "static/images/gepa-reflective-prompt-optimization/card-03.png",
+          "output_path": "static/images/gepa-reflective-prompt-optimization/card-03.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-4",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "masterful hand-drawn ink editorial illustration, expert pen strokes, detailed cross-hatching, no readable text, no labels, no human faces. Instagram carousel slide 4, third key point illustration. Topic: GEPA로 짓는 반사형 프롬프트 최적화: 다중 컴포넌트와 구조화 피드백, 홀드아웃 검증. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "static/images/gepa-reflective-prompt-optimization/card-04.png",
+      "output_path": "static/images/gepa-reflective-prompt-optimization/card-04.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-08T11:34:52+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "static/images/gepa-reflective-prompt-optimization/card-04.png",
+          "output_path": "static/images/gepa-reflective-prompt-optimization/card-04.png",
+          "status": "copied"
+        },
+        {
+          "timestamp": "2026-06-08T11:35:02+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "static/images/gepa-reflective-prompt-optimization/card-04.png",
+          "output_path": "static/images/gepa-reflective-prompt-optimization/card-04.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-5",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "masterful hand-drawn ink editorial illustration, expert pen strokes, detailed cross-hatching, no readable text, no labels, no human faces. Instagram carousel slide 5, conclusion and CTA mood illustration. Topic: GEPA로 짓는 반사형 프롬프트 최적화: 다중 컴포넌트와 구조화 피드백, 홀드아웃 검증. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "static/images/gepa-reflective-prompt-optimization/card-05.png",
+      "output_path": "static/images/gepa-reflective-prompt-optimization/card-05.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-08T11:34:52+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "static/images/gepa-reflective-prompt-optimization/card-05.png",
+          "output_path": "static/images/gepa-reflective-prompt-optimization/card-05.png",
+          "status": "copied"
+        },
+        {
+          "timestamp": "2026-06-08T11:35:02+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "static/images/gepa-reflective-prompt-optimization/card-05.png",
+          "output_path": "static/images/gepa-reflective-prompt-optimization/card-05.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    }
+  ],
+  "finalized_at": "2026-06-08T11:35:07+09:00"
+}
