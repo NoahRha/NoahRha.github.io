@@ -6,7 +6,7 @@ description: "OpenClaw v2026.6.5가 공개됐습니다. QQBot 응답에서 모�
 tags: ["OpenClaw", "릴리스", "MCP", "Vertex", "Matrix", "AI에이전트"]
 categories: ["openclaw"]
 cover:
-  image: /images/openclaw-v2026-6-5-release/cover.png
+  image: /images/openclaw-v2026-6-5-release/openclaw-v2026-6-5-release-cover.png
   alt: "OpenClaw v2026.6.5 안정화 릴리스 일러스트"
   caption: "Generated illustration"
 ---
