@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "slug": "openclaw-v2026-6-5-release",
+  "title": "OpenClaw v2026.6.5 릴리스 노트 — QQBot·MCP·Vertex·Matrix 통합 안정화",
+  "source_url": "https://github.com/openclaw/openclaw/releases/tag/v2026.6.5",
+  "style": "hand-drawing",
+  "mode": "blog",
+  "status": "AUDIT_PRECOMMIT_OK",
+  "created_at": "2026-06-10T16:25:52+09:00",
+  "updated_at": "2026-06-10T16:38:42+09:00",
+  "paths": {
+    "post": "content/openclaw/openclaw-v2026-6-5-release.md",
+    "sns": "content/social/openclaw-v2026-6-5-release-sns.md",
+    "image_dir": "static/images/openclaw-v2026-6-5-release",
+    "image_plan": "data/image-plans/openclaw-v2026-6-5-release.json"
+  },
+  "required_gates": [
+    "source_url_locked",
+    "post_file_exists",
+    "required_images_exist",
+    "image_plan_complete",
+    "hugo_build_success",
+    "claude_or_gpt_review_recorded",
+    "minimax_text_revision_recorded",
+    "humanize_and_poetry_review_recorded"
+  ],
+  "review": {
+    "claude": "done",
+    "gpt_fallback": "not_needed",
+    "minimax": "done",
+    "minimax_revisions": 2,
+    "humanize_korean": "done",
+    "poetry_rhythm": "done"
+  },
+  "harness": {
+    "enabled": true,
+    "intensity": "strong",
+    "status": "text_reviewed"
+  },
+  "notes": [
+    {
+      "timestamp": "2026-06-10T16:29:16+09:00",
+      "text": "blocked: audit draft 실패: post file missing: content/LLM-info/openclaw-v2026-6-5-release.md"
+    }
+  ]
+}
