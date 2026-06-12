@@ -1,0 +1,237 @@
+{
+  "slug": "winning-asia-aimo-robotics-casino-ai-patrol",
+  "style": "hand-drawing",
+  "profile": "default",
+  "fallback_order": [
+    "gpt-image-2",
+    "minimax-portal/image-01"
+  ],
+  "assets": [
+    {
+      "id": "cover",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "meticulous and highly detailed hand-drawn pen-and-ink illustration, expert confident linework with dense cross-hatching and fine stippling for shading, intricate editorial drawing with rich detail throughout, the BACKGROUND is fully drawn as a contextual scene/environment related to the article topic (do NOT leave the background as blank white space — draw a relevant detailed setting behind the subject), ink and graphite tones, hand-drawn texture, no readable text, no labels. single visual metaphor for the blog's core message. Topic: 마카오 카지노에 AI 순찰 로봇이 들어온다 — Winning Asia가 Aimo Robotics에 베팅한 이유. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/winning-asia-aimo-robotics-casino-ai-patrol-cover.png",
+      "output_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/winning-asia-aimo-robotics-casino-ai-patrol-cover.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-13T00:39:15+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/winning-asia-aimo-robotics-casino-ai-patrol-cover.png",
+          "output_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/winning-asia-aimo-robotics-casino-ai-patrol-cover.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "body-1",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "meticulous and highly detailed hand-drawn pen-and-ink illustration, expert confident linework with dense cross-hatching and fine stippling for shading, intricate editorial drawing with rich detail throughout, the BACKGROUND is fully drawn as a contextual scene/environment related to the article topic (do NOT leave the background as blank white space — draw a relevant detailed setting behind the subject), ink and graphite tones, hand-drawn texture, no readable text, no labels. supporting body illustration that explains the first key mechanism. Topic: 마카오 카지노에 AI 순찰 로봇이 들어온다 — Winning Asia가 Aimo Robotics에 베팅한 이유. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/winning-asia-aimo-robotics-casino-ai-patrol-body-01.png",
+      "output_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/winning-asia-aimo-robotics-casino-ai-patrol-body-01.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-13T00:39:15+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/winning-asia-aimo-robotics-casino-ai-patrol-body-01.png",
+          "output_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/winning-asia-aimo-robotics-casino-ai-patrol-body-01.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "threads",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "meticulous and highly detailed hand-drawn pen-and-ink illustration, expert confident linework with dense cross-hatching and fine stippling for shading, intricate editorial drawing with rich detail throughout, the BACKGROUND is fully drawn as a contextual scene/environment related to the article topic (do NOT leave the background as blank white space — draw a relevant detailed setting behind the subject), ink and graphite tones, hand-drawn texture, no readable text, no labels. four-panel comic layout summarizing the blog idea without text. Topic: 마카오 카지노에 AI 순찰 로봇이 들어온다 — Winning Asia가 Aimo Robotics에 베팅한 이유. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/winning-asia-aimo-robotics-casino-ai-patrol-threads-comic.png",
+      "output_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/winning-asia-aimo-robotics-casino-ai-patrol-threads-comic.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-13T00:39:15+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/winning-asia-aimo-robotics-casino-ai-patrol-threads-comic.png",
+          "output_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/winning-asia-aimo-robotics-casino-ai-patrol-threads-comic.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "body-2",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "meticulous and highly detailed hand-drawn pen-and-ink illustration, expert confident linework with dense cross-hatching and fine stippling for shading, intricate editorial drawing with rich detail throughout, the BACKGROUND is fully drawn as a contextual scene/environment related to the article topic (do NOT leave the background as blank white space — draw a relevant detailed setting behind the subject), ink and graphite tones, hand-drawn texture, no readable text, no labels. supporting body illustration for the practical implication. Topic: 마카오 카지노에 AI 순찰 로봇이 들어온다 — Winning Asia가 Aimo Robotics에 베팅한 이유. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/winning-asia-aimo-robotics-casino-ai-patrol-body-02.png",
+      "output_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/winning-asia-aimo-robotics-casino-ai-patrol-body-02.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-13T00:39:15+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/winning-asia-aimo-robotics-casino-ai-patrol-body-02.png",
+          "output_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/winning-asia-aimo-robotics-casino-ai-patrol-body-02.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-1",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "meticulous and highly detailed hand-drawn pen-and-ink illustration, expert confident linework with dense cross-hatching and fine stippling for shading, intricate editorial drawing with rich detail throughout, the BACKGROUND is fully drawn as a contextual scene/environment related to the article topic (do NOT leave the background as blank white space — draw a relevant detailed setting behind the subject), ink and graphite tones, hand-drawn texture, no readable text, no labels. Instagram carousel slide 1, visual hook illustration. Topic: 마카오 카지노에 AI 순찰 로봇이 들어온다 — Winning Asia가 Aimo Robotics에 베팅한 이유. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/card-01.png",
+      "output_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/card-01.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-13T00:39:15+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/card-01.png",
+          "output_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/card-01.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-2",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "meticulous and highly detailed hand-drawn pen-and-ink illustration, expert confident linework with dense cross-hatching and fine stippling for shading, intricate editorial drawing with rich detail throughout, the BACKGROUND is fully drawn as a contextual scene/environment related to the article topic (do NOT leave the background as blank white space — draw a relevant detailed setting behind the subject), ink and graphite tones, hand-drawn texture, no readable text, no labels. Instagram carousel slide 2, first key point illustration. Topic: 마카오 카지노에 AI 순찰 로봇이 들어온다 — Winning Asia가 Aimo Robotics에 베팅한 이유. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/card-02.png",
+      "output_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/card-02.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-13T00:39:15+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/card-02.png",
+          "output_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/card-02.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-3",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "meticulous and highly detailed hand-drawn pen-and-ink illustration, expert confident linework with dense cross-hatching and fine stippling for shading, intricate editorial drawing with rich detail throughout, the BACKGROUND is fully drawn as a contextual scene/environment related to the article topic (do NOT leave the background as blank white space — draw a relevant detailed setting behind the subject), ink and graphite tones, hand-drawn texture, no readable text, no labels. Instagram carousel slide 3, second key point illustration. Topic: 마카오 카지노에 AI 순찰 로봇이 들어온다 — Winning Asia가 Aimo Robotics에 베팅한 이유. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/card-03.png",
+      "output_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/card-03.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-13T00:39:15+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/card-03.png",
+          "output_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/card-03.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-4",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "meticulous and highly detailed hand-drawn pen-and-ink illustration, expert confident linework with dense cross-hatching and fine stippling for shading, intricate editorial drawing with rich detail throughout, the BACKGROUND is fully drawn as a contextual scene/environment related to the article topic (do NOT leave the background as blank white space — draw a relevant detailed setting behind the subject), ink and graphite tones, hand-drawn texture, no readable text, no labels. Instagram carousel slide 4, third key point illustration. Topic: 마카오 카지노에 AI 순찰 로봇이 들어온다 — Winning Asia가 Aimo Robotics에 베팅한 이유. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/card-04.png",
+      "output_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/card-04.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-13T00:39:15+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/card-04.png",
+          "output_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/card-04.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-5",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "meticulous and highly detailed hand-drawn pen-and-ink illustration, expert confident linework with dense cross-hatching and fine stippling for shading, intricate editorial drawing with rich detail throughout, the BACKGROUND is fully drawn as a contextual scene/environment related to the article topic (do NOT leave the background as blank white space — draw a relevant detailed setting behind the subject), ink and graphite tones, hand-drawn texture, no readable text, no labels. Instagram carousel slide 5, conclusion and CTA mood illustration. Topic: 마카오 카지노에 AI 순찰 로봇이 들어온다 — Winning Asia가 Aimo Robotics에 베팅한 이유. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/card-05.png",
+      "output_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/card-05.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-13T00:39:15+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/card-05.png",
+          "output_path": "static/images/winning-asia-aimo-robotics-casino-ai-patrol/card-05.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    }
+  ],
+  "finalized_at": "2026-06-13T00:39:20+09:00"
+}
