@@ -1,0 +1,237 @@
+{
+  "slug": "monai-3d-spleen-segmentation-unet-ct-tutorial",
+  "style": "hand-drawing",
+  "profile": "default",
+  "fallback_order": [
+    "gpt-image-2",
+    "minimax-portal/image-01"
+  ],
+  "assets": [
+    {
+      "id": "cover",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "hand-drawing MONAI 3D spleen segmentation cover",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/cover.png",
+      "output_path": "static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/monai-3d-spleen-segmentation-unet-ct-tutorial-cover.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-12T20:37:48+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/cover.png",
+          "output_path": "static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/monai-3d-spleen-segmentation-unet-ct-tutorial-cover.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "body-1",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "hand-drawing MONAI body-1 preprocessing pipeline",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/body-01.png",
+      "output_path": "static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/monai-3d-spleen-segmentation-unet-ct-tutorial-body-01.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-12T20:39:00+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/body-01.png",
+          "output_path": "static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/monai-3d-spleen-segmentation-unet-ct-tutorial-body-01.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "threads",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "hand-drawing MONAI 3D spleen segmentation threads",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/monai-3d-spleen-segmentation-unet-ct-tutorial-threads-comic.png",
+      "output_path": "static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/monai-3d-spleen-segmentation-unet-ct-tutorial-threads-comic.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-12T20:37:48+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/monai-3d-spleen-segmentation-unet-ct-tutorial-threads-comic.png",
+          "output_path": "static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/monai-3d-spleen-segmentation-unet-ct-tutorial-threads-comic.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "body-2",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "hand-drawing MONAI body-2 UNet training",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/body-02.png",
+      "output_path": "static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/monai-3d-spleen-segmentation-unet-ct-tutorial-body-02.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-12T20:39:00+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/body-02.png",
+          "output_path": "static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/monai-3d-spleen-segmentation-unet-ct-tutorial-body-02.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-1",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "hand-drawing MONAI 3D spleen segmentation instagram-1",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/card-01.png",
+      "output_path": "static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/card-01.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-12T20:37:48+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/card-01.png",
+          "output_path": "static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/card-01.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-2",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "hand-drawing MONAI 3D spleen segmentation instagram-2",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/card-02.png",
+      "output_path": "static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/card-02.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-12T20:37:48+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/card-02.png",
+          "output_path": "static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/card-02.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-3",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "hand-drawing MONAI 3D spleen segmentation instagram-3",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/card-03.png",
+      "output_path": "static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/card-03.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-12T20:37:48+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/card-03.png",
+          "output_path": "static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/card-03.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-4",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "hand-drawing MONAI 3D spleen segmentation instagram-4",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/card-04.png",
+      "output_path": "static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/card-04.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-12T20:37:48+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/card-04.png",
+          "output_path": "static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/card-04.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-5",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "hand-drawing MONAI 3D spleen segmentation instagram-5",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/card-05.png",
+      "output_path": "static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/card-05.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-12T20:37:48+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/card-05.png",
+          "output_path": "static/images/monai-3d-spleen-segmentation-unet-ct-tutorial/card-05.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    }
+  ],
+  "finalized_at": "2026-06-12T20:39:00+09:00"
+}
