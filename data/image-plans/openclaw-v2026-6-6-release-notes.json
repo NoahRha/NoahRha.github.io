@@ -1,0 +1,261 @@
+{
+  "schema_version": "1.1",
+  "slug": "openclaw-v2026-6-6-release-notes",
+  "title": "OpenClaw v2026.6.6 — 보안 경계 강화와 전 채널 안정성 업데이트",
+  "profile": "default",
+  "style_group": "job",
+  "style": "hand-drawing",
+  "fallback_order": [
+    "gpt-image-2",
+    "minimax-portal/image-01"
+  ],
+  "regenerate_groups": {
+    "instagram": "instagram-carousel"
+  },
+  "batches": [
+    [
+      "cover",
+      "body-1",
+      "threads"
+    ],
+    [
+      "body-2",
+      "instagram-1",
+      "instagram-2"
+    ],
+    [
+      "instagram-3",
+      "instagram-4",
+      "instagram-5"
+    ]
+  ],
+  "assets": [
+    {
+      "id": "cover",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "meticulous and highly detailed hand-drawn pen-and-ink illustration, expert confident linework with dense cross-hatching and fine stippling for shading, intricate editorial drawing with rich detail throughout, the BACKGROUND is fully drawn as a contextual scene/environment related to the article topic (do NOT leave the background as blank white space — draw a relevant detailed setting behind the subject), ink and graphite tones, hand-drawn texture, no readable text, no labels. single visual metaphor for the blog's core message. Topic: OpenClaw v2026.6.6 — 보안 경계 강화와 전 채널 안정성 업데이트. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openclaw-v2026-6-6-release-notes/openclaw-v2026-6-6-release-notes-cover.png",
+      "output_path": "static/images/openclaw-v2026-6-6-release-notes/openclaw-v2026-6-6-release-notes-cover.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-13T14:20:05+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openclaw-v2026-6-6-release-notes/openclaw-v2026-6-6-release-notes-cover.png",
+          "output_path": "static/images/openclaw-v2026-6-6-release-notes/openclaw-v2026-6-6-release-notes-cover.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "body-1",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "meticulous and highly detailed hand-drawn pen-and-ink illustration, expert confident linework with dense cross-hatching and fine stippling for shading, intricate editorial drawing with rich detail throughout, the BACKGROUND is fully drawn as a contextual scene/environment related to the article topic (do NOT leave the background as blank white space — draw a relevant detailed setting behind the subject), ink and graphite tones, hand-drawn texture, no readable text, no labels. supporting body illustration that explains the first key mechanism. Topic: OpenClaw v2026.6.6 — 보안 경계 강화와 전 채널 안정성 업데이트. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openclaw-v2026-6-6-release-notes/openclaw-v2026-6-6-release-notes-body-01.png",
+      "output_path": "static/images/openclaw-v2026-6-6-release-notes/openclaw-v2026-6-6-release-notes-body-01.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-13T14:20:05+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openclaw-v2026-6-6-release-notes/openclaw-v2026-6-6-release-notes-body-01.png",
+          "output_path": "static/images/openclaw-v2026-6-6-release-notes/openclaw-v2026-6-6-release-notes-body-01.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "threads",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "meticulous and highly detailed hand-drawn pen-and-ink illustration, expert confident linework with dense cross-hatching and fine stippling for shading, intricate editorial drawing with rich detail throughout, the BACKGROUND is fully drawn as a contextual scene/environment related to the article topic (do NOT leave the background as blank white space — draw a relevant detailed setting behind the subject), ink and graphite tones, hand-drawn texture, no readable text, no labels. four-panel comic layout summarizing the blog idea without text. Topic: OpenClaw v2026.6.6 — 보안 경계 강화와 전 채널 안정성 업데이트. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openclaw-v2026-6-6-release-notes/openclaw-v2026-6-6-release-notes-threads-comic.png",
+      "output_path": "static/images/openclaw-v2026-6-6-release-notes/openclaw-v2026-6-6-release-notes-threads-comic.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-13T14:20:05+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openclaw-v2026-6-6-release-notes/openclaw-v2026-6-6-release-notes-threads-comic.png",
+          "output_path": "static/images/openclaw-v2026-6-6-release-notes/openclaw-v2026-6-6-release-notes-threads-comic.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "body-2",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "meticulous and highly detailed hand-drawn pen-and-ink illustration, expert confident linework with dense cross-hatching and fine stippling for shading, intricate editorial drawing with rich detail throughout, the BACKGROUND is fully drawn as a contextual scene/environment related to the article topic (do NOT leave the background as blank white space — draw a relevant detailed setting behind the subject), ink and graphite tones, hand-drawn texture, no readable text, no labels. supporting body illustration for the practical implication. Topic: OpenClaw v2026.6.6 — 보안 경계 강화와 전 채널 안정성 업데이트. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openclaw-v2026-6-6-release-notes/openclaw-v2026-6-6-release-notes-body-02.png",
+      "output_path": "static/images/openclaw-v2026-6-6-release-notes/openclaw-v2026-6-6-release-notes-body-02.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-13T14:20:05+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openclaw-v2026-6-6-release-notes/openclaw-v2026-6-6-release-notes-body-02.png",
+          "output_path": "static/images/openclaw-v2026-6-6-release-notes/openclaw-v2026-6-6-release-notes-body-02.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-1",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "meticulous and highly detailed hand-drawn pen-and-ink illustration, expert confident linework with dense cross-hatching and fine stippling for shading, intricate editorial drawing with rich detail throughout, the BACKGROUND is fully drawn as a contextual scene/environment related to the article topic (do NOT leave the background as blank white space — draw a relevant detailed setting behind the subject), ink and graphite tones, hand-drawn texture, no readable text, no labels. Instagram carousel slide 1, visual hook illustration. Topic: OpenClaw v2026.6.6 — 보안 경계 강화와 전 채널 안정성 업데이트. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openclaw-v2026-6-6-release-notes/card-01.png",
+      "output_path": "static/images/openclaw-v2026-6-6-release-notes/card-01.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-13T14:20:05+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openclaw-v2026-6-6-release-notes/card-01.png",
+          "output_path": "static/images/openclaw-v2026-6-6-release-notes/card-01.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-2",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "meticulous and highly detailed hand-drawn pen-and-ink illustration, expert confident linework with dense cross-hatching and fine stippling for shading, intricate editorial drawing with rich detail throughout, the BACKGROUND is fully drawn as a contextual scene/environment related to the article topic (do NOT leave the background as blank white space — draw a relevant detailed setting behind the subject), ink and graphite tones, hand-drawn texture, no readable text, no labels. Instagram carousel slide 2, first key point illustration. Topic: OpenClaw v2026.6.6 — 보안 경계 강화와 전 채널 안정성 업데이트. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openclaw-v2026-6-6-release-notes/card-02.png",
+      "output_path": "static/images/openclaw-v2026-6-6-release-notes/card-02.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-13T14:20:05+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openclaw-v2026-6-6-release-notes/card-02.png",
+          "output_path": "static/images/openclaw-v2026-6-6-release-notes/card-02.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-3",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "meticulous and highly detailed hand-drawn pen-and-ink illustration, expert confident linework with dense cross-hatching and fine stippling for shading, intricate editorial drawing with rich detail throughout, the BACKGROUND is fully drawn as a contextual scene/environment related to the article topic (do NOT leave the background as blank white space — draw a relevant detailed setting behind the subject), ink and graphite tones, hand-drawn texture, no readable text, no labels. Instagram carousel slide 3, second key point illustration. Topic: OpenClaw v2026.6.6 — 보안 경계 강화와 전 채널 안정성 업데이트. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openclaw-v2026-6-6-release-notes/card-03.png",
+      "output_path": "static/images/openclaw-v2026-6-6-release-notes/card-03.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-13T14:20:05+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openclaw-v2026-6-6-release-notes/card-03.png",
+          "output_path": "static/images/openclaw-v2026-6-6-release-notes/card-03.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-4",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "meticulous and highly detailed hand-drawn pen-and-ink illustration, expert confident linework with dense cross-hatching and fine stippling for shading, intricate editorial drawing with rich detail throughout, the BACKGROUND is fully drawn as a contextual scene/environment related to the article topic (do NOT leave the background as blank white space — draw a relevant detailed setting behind the subject), ink and graphite tones, hand-drawn texture, no readable text, no labels. Instagram carousel slide 4, third key point illustration. Topic: OpenClaw v2026.6.6 — 보안 경계 강화와 전 채널 안정성 업데이트. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openclaw-v2026-6-6-release-notes/card-04.png",
+      "output_path": "static/images/openclaw-v2026-6-6-release-notes/card-04.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-13T14:20:05+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openclaw-v2026-6-6-release-notes/card-04.png",
+          "output_path": "static/images/openclaw-v2026-6-6-release-notes/card-04.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-5",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "meticulous and highly detailed hand-drawn pen-and-ink illustration, expert confident linework with dense cross-hatching and fine stippling for shading, intricate editorial drawing with rich detail throughout, the BACKGROUND is fully drawn as a contextual scene/environment related to the article topic (do NOT leave the background as blank white space — draw a relevant detailed setting behind the subject), ink and graphite tones, hand-drawn texture, no readable text, no labels. Instagram carousel slide 5, conclusion and CTA mood illustration. Topic: OpenClaw v2026.6.6 — 보안 경계 강화와 전 채널 안정성 업데이트. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openclaw-v2026-6-6-release-notes/card-05.png",
+      "output_path": "static/images/openclaw-v2026-6-6-release-notes/card-05.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-13T14:20:05+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openclaw-v2026-6-6-release-notes/card-05.png",
+          "output_path": "static/images/openclaw-v2026-6-6-release-notes/card-05.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    }
+  ],
+  "created_at": "2026-06-13T14:13:24+09:00",
+  "updated_at": "2026-06-13T14:20:11+09:00"
+}
