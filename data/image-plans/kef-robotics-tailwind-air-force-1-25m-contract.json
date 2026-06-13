@@ -1,0 +1,261 @@
+{
+  "schema_version": "1.1",
+  "slug": "kef-robotics-tailwind-air-force-1-25m-contract",
+  "title": "KEF Robotics, 미 공군과 125만 달러 계약… 자율 드론 항법 SW '테일윈드' 확산",
+  "profile": "default",
+  "style_group": "job",
+  "style": "hand-drawing",
+  "fallback_order": [
+    "gpt-image-2",
+    "minimax-portal/image-01"
+  ],
+  "regenerate_groups": {
+    "instagram": "instagram-carousel"
+  },
+  "batches": [
+    [
+      "cover",
+      "body-1",
+      "threads"
+    ],
+    [
+      "body-2",
+      "instagram-1",
+      "instagram-2"
+    ],
+    [
+      "instagram-3",
+      "instagram-4",
+      "instagram-5"
+    ]
+  ],
+  "assets": [
+    {
+      "id": "cover",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "hand-drawing cover from source article hero image (KEF Robotics drone)",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/kef-robotics-tailwind-air-force-1-25m-contract/kef-robotics-tailwind-air-force-1-25m-contract-cover.png",
+      "output_path": "static/images/kef-robotics-tailwind-air-force-1-25m-contract/kef-robotics-tailwind-air-force-1-25m-contract-cover.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-13T17:57:43+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/kef-robotics-tailwind-air-force-1-25m-contract/kef-robotics-tailwind-air-force-1-25m-contract-cover.png",
+          "output_path": "static/images/kef-robotics-tailwind-air-force-1-25m-contract/kef-robotics-tailwind-air-force-1-25m-contract-cover.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "body-1",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "hand-drawing body illustration from source article hero image",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/kef-robotics-tailwind-air-force-1-25m-contract/kef-robotics-tailwind-air-force-1-25m-contract-body-01.png",
+      "output_path": "static/images/kef-robotics-tailwind-air-force-1-25m-contract/kef-robotics-tailwind-air-force-1-25m-contract-body-01.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-13T17:57:43+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/kef-robotics-tailwind-air-force-1-25m-contract/kef-robotics-tailwind-air-force-1-25m-contract-body-01.png",
+          "output_path": "static/images/kef-robotics-tailwind-air-force-1-25m-contract/kef-robotics-tailwind-air-force-1-25m-contract-body-01.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "threads",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "hand-drawn 4-panel comic via Minimax image-01",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/kef-robotics-tailwind-air-force-1-25m-contract/kef-robotics-tailwind-air-force-1-25m-contract-threads-comic.png",
+      "output_path": "static/images/kef-robotics-tailwind-air-force-1-25m-contract/kef-robotics-tailwind-air-force-1-25m-contract-threads-comic.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-13T17:57:43+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/kef-robotics-tailwind-air-force-1-25m-contract/kef-robotics-tailwind-air-force-1-25m-contract-threads-comic.png",
+          "output_path": "static/images/kef-robotics-tailwind-air-force-1-25m-contract/kef-robotics-tailwind-air-force-1-25m-contract-threads-comic.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "body-2",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "hand-drawing body illustration from source article hero image",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/kef-robotics-tailwind-air-force-1-25m-contract/kef-robotics-tailwind-air-force-1-25m-contract-body-02.png",
+      "output_path": "static/images/kef-robotics-tailwind-air-force-1-25m-contract/kef-robotics-tailwind-air-force-1-25m-contract-body-02.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-13T17:57:43+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/kef-robotics-tailwind-air-force-1-25m-contract/kef-robotics-tailwind-air-force-1-25m-contract-body-02.png",
+          "output_path": "static/images/kef-robotics-tailwind-air-force-1-25m-contract/kef-robotics-tailwind-air-force-1-25m-contract-body-02.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-1",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "hand-drawn IG card 1 via Minimax image-01",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/kef-robotics-tailwind-air-force-1-25m-contract/card-01.png",
+      "output_path": "static/images/kef-robotics-tailwind-air-force-1-25m-contract/card-01.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-13T17:57:43+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/kef-robotics-tailwind-air-force-1-25m-contract/card-01.png",
+          "output_path": "static/images/kef-robotics-tailwind-air-force-1-25m-contract/card-01.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-2",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "hand-drawn IG card 2 via Minimax image-01",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/kef-robotics-tailwind-air-force-1-25m-contract/card-02.png",
+      "output_path": "static/images/kef-robotics-tailwind-air-force-1-25m-contract/card-02.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-13T17:57:43+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/kef-robotics-tailwind-air-force-1-25m-contract/card-02.png",
+          "output_path": "static/images/kef-robotics-tailwind-air-force-1-25m-contract/card-02.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-3",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "hand-drawn IG card 3 via Minimax image-01",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/kef-robotics-tailwind-air-force-1-25m-contract/card-03.png",
+      "output_path": "static/images/kef-robotics-tailwind-air-force-1-25m-contract/card-03.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-13T17:57:43+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/kef-robotics-tailwind-air-force-1-25m-contract/card-03.png",
+          "output_path": "static/images/kef-robotics-tailwind-air-force-1-25m-contract/card-03.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-4",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "hand-drawn IG card 4 via Minimax image-01",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/kef-robotics-tailwind-air-force-1-25m-contract/card-04.png",
+      "output_path": "static/images/kef-robotics-tailwind-air-force-1-25m-contract/card-04.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-13T17:57:43+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/kef-robotics-tailwind-air-force-1-25m-contract/card-04.png",
+          "output_path": "static/images/kef-robotics-tailwind-air-force-1-25m-contract/card-04.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-5",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "hand-drawn IG card 5 via Minimax image-01",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/kef-robotics-tailwind-air-force-1-25m-contract/card-05.png",
+      "output_path": "static/images/kef-robotics-tailwind-air-force-1-25m-contract/card-05.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-13T17:57:43+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/kef-robotics-tailwind-air-force-1-25m-contract/card-05.png",
+          "output_path": "static/images/kef-robotics-tailwind-air-force-1-25m-contract/card-05.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    }
+  ],
+  "created_at": "2026-06-13T17:48:36+09:00",
+  "updated_at": "2026-06-13T17:57:50+09:00"
+}
