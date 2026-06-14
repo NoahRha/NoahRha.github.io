@@ -1,0 +1,237 @@
+{
+  "slug": "elle-daily-horoscope-2026-06-14-gemini-new-moon",
+  "style": "oil",
+  "profile": "default",
+  "fallback_order": [
+    "gpt-image-2",
+    "minimax-portal/image-01"
+  ],
+  "assets": [
+    {
+      "id": "cover",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "oil",
+      "status": "reviewed",
+      "prompt": "rich expressive fine-art oil painting, thick visible impasto brushstrokes and palette-knife texture, layered glossy oil paint with deep luminous color, vivid saturated pigments and dramatic chiaroscuro lighting, painterly canvas texture, museum-quality classical composition, strongly conveys the feel of real oil paint on canvas, no readable text, no labels. single visual metaphor for the blog's core message. Topic: 2026년 6월 14일 별자리 운세 — 쌍둥이자리 신월과 사자자리 금성. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/elle-daily-horoscope-2026-06-14-gemini-new-moon-cover.png",
+      "output_path": "static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/elle-daily-horoscope-2026-06-14-gemini-new-moon-cover.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-14T17:10:32+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/elle-daily-horoscope-2026-06-14-gemini-new-moon-cover.png",
+          "output_path": "static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/elle-daily-horoscope-2026-06-14-gemini-new-moon-cover.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "body-1",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "oil",
+      "status": "reviewed",
+      "prompt": "rich expressive fine-art oil painting, thick visible impasto brushstrokes and palette-knife texture, layered glossy oil paint with deep luminous color, vivid saturated pigments and dramatic chiaroscuro lighting, painterly canvas texture, museum-quality classical composition, strongly conveys the feel of real oil paint on canvas, no readable text, no labels. supporting body illustration that explains the first key mechanism. Topic: 2026년 6월 14일 별자리 운세 — 쌍둥이자리 신월과 사자자리 금성. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/elle-daily-horoscope-2026-06-14-gemini-new-moon-body-01.png",
+      "output_path": "static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/elle-daily-horoscope-2026-06-14-gemini-new-moon-body-01.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-14T17:10:32+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/elle-daily-horoscope-2026-06-14-gemini-new-moon-body-01.png",
+          "output_path": "static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/elle-daily-horoscope-2026-06-14-gemini-new-moon-body-01.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "threads",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "oil",
+      "status": "reviewed",
+      "prompt": "rich expressive fine-art oil painting, thick visible impasto brushstrokes and palette-knife texture, layered glossy oil paint with deep luminous color, vivid saturated pigments and dramatic chiaroscuro lighting, painterly canvas texture, museum-quality classical composition, strongly conveys the feel of real oil paint on canvas, no readable text, no labels. four-panel comic layout summarizing the blog idea without text. Topic: 2026년 6월 14일 별자리 운세 — 쌍둥이자리 신월과 사자자리 금성. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/elle-daily-horoscope-2026-06-14-gemini-new-moon-threads-comic.png",
+      "output_path": "static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/elle-daily-horoscope-2026-06-14-gemini-new-moon-threads-comic.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-14T17:10:32+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/elle-daily-horoscope-2026-06-14-gemini-new-moon-threads-comic.png",
+          "output_path": "static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/elle-daily-horoscope-2026-06-14-gemini-new-moon-threads-comic.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "body-2",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "oil",
+      "status": "reviewed",
+      "prompt": "rich expressive fine-art oil painting, thick visible impasto brushstrokes and palette-knife texture, layered glossy oil paint with deep luminous color, vivid saturated pigments and dramatic chiaroscuro lighting, painterly canvas texture, museum-quality classical composition, strongly conveys the feel of real oil paint on canvas, no readable text, no labels. supporting body illustration for the practical implication. Topic: 2026년 6월 14일 별자리 운세 — 쌍둥이자리 신월과 사자자리 금성. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/elle-daily-horoscope-2026-06-14-gemini-new-moon-body-02.png",
+      "output_path": "static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/elle-daily-horoscope-2026-06-14-gemini-new-moon-body-02.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-14T17:10:32+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/elle-daily-horoscope-2026-06-14-gemini-new-moon-body-02.png",
+          "output_path": "static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/elle-daily-horoscope-2026-06-14-gemini-new-moon-body-02.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-1",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "oil",
+      "status": "reviewed",
+      "prompt": "rich expressive fine-art oil painting, thick visible impasto brushstrokes and palette-knife texture, layered glossy oil paint with deep luminous color, vivid saturated pigments and dramatic chiaroscuro lighting, painterly canvas texture, museum-quality classical composition, strongly conveys the feel of real oil paint on canvas, no readable text, no labels. Instagram carousel slide 1, visual hook illustration. Topic: 2026년 6월 14일 별자리 운세 — 쌍둥이자리 신월과 사자자리 금성. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/card-01.png",
+      "output_path": "static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/card-01.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-14T17:10:32+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/card-01.png",
+          "output_path": "static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/card-01.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-2",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "oil",
+      "status": "reviewed",
+      "prompt": "rich expressive fine-art oil painting, thick visible impasto brushstrokes and palette-knife texture, layered glossy oil paint with deep luminous color, vivid saturated pigments and dramatic chiaroscuro lighting, painterly canvas texture, museum-quality classical composition, strongly conveys the feel of real oil paint on canvas, no readable text, no labels. Instagram carousel slide 2, first key point illustration. Topic: 2026년 6월 14일 별자리 운세 — 쌍둥이자리 신월과 사자자리 금성. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/card-02.png",
+      "output_path": "static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/card-02.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-14T17:10:32+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/card-02.png",
+          "output_path": "static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/card-02.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-3",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "oil",
+      "status": "reviewed",
+      "prompt": "rich expressive fine-art oil painting, thick visible impasto brushstrokes and palette-knife texture, layered glossy oil paint with deep luminous color, vivid saturated pigments and dramatic chiaroscuro lighting, painterly canvas texture, museum-quality classical composition, strongly conveys the feel of real oil paint on canvas, no readable text, no labels. Instagram carousel slide 3, second key point illustration. Topic: 2026년 6월 14일 별자리 운세 — 쌍둥이자리 신월과 사자자리 금성. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/card-03.png",
+      "output_path": "static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/card-03.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-14T17:10:32+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/card-03.png",
+          "output_path": "static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/card-03.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-4",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "oil",
+      "status": "reviewed",
+      "prompt": "rich expressive fine-art oil painting, thick visible impasto brushstrokes and palette-knife texture, layered glossy oil paint with deep luminous color, vivid saturated pigments and dramatic chiaroscuro lighting, painterly canvas texture, museum-quality classical composition, strongly conveys the feel of real oil paint on canvas, no readable text, no labels. Instagram carousel slide 4, third key point illustration. Topic: 2026년 6월 14일 별자리 운세 — 쌍둥이자리 신월과 사자자리 금성. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/card-04.png",
+      "output_path": "static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/card-04.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-14T17:10:32+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/card-04.png",
+          "output_path": "static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/card-04.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-5",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "oil",
+      "status": "reviewed",
+      "prompt": "rich expressive fine-art oil painting, thick visible impasto brushstrokes and palette-knife texture, layered glossy oil paint with deep luminous color, vivid saturated pigments and dramatic chiaroscuro lighting, painterly canvas texture, museum-quality classical composition, strongly conveys the feel of real oil paint on canvas, no readable text, no labels. Instagram carousel slide 5, conclusion and CTA mood illustration. Topic: 2026년 6월 14일 별자리 운세 — 쌍둥이자리 신월과 사자자리 금성. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/card-05.png",
+      "output_path": "static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/card-05.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-14T17:10:32+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/card-05.png",
+          "output_path": "static/images/elle-daily-horoscope-2026-06-14-gemini-new-moon/card-05.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    }
+  ],
+  "finalized_at": "2026-06-14T17:11:15+09:00"
+}
