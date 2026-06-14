@@ -1,0 +1,237 @@
+{
+  "slug": "xiaomi-ev-robotic-charging-arm",
+  "style": "hand-drawing",
+  "profile": "default",
+  "fallback_order": [
+    "gpt-image-2",
+    "minimax-portal/image-01"
+  ],
+  "assets": [
+    {
+      "id": "cover",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "Source article hero image — Autoblog editorial photo of Xiaomi EV Robotic Charging Arm",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/xiaomi-ev-robotic-charging-arm/xiaomi-ev-robotic-charging-arm-cover.jpg",
+      "output_path": "static/images/xiaomi-ev-robotic-charging-arm/xiaomi-ev-robotic-charging-arm-cover.jpg",
+      "attempts": [
+        {
+          "timestamp": "2026-06-14T15:36:08+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/xiaomi-ev-robotic-charging-arm/xiaomi-ev-robotic-charging-arm-cover.jpg",
+          "output_path": "static/images/xiaomi-ev-robotic-charging-arm/xiaomi-ev-robotic-charging-arm-cover.jpg",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "body-1",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "Source article body image — robot arm side shot",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/xiaomi-ev-robotic-charging-arm/xiaomi-ev-robotic-charging-arm-body-01.jpg",
+      "output_path": "static/images/xiaomi-ev-robotic-charging-arm/xiaomi-ev-robotic-charging-arm-body-01.jpg",
+      "attempts": [
+        {
+          "timestamp": "2026-06-14T15:36:08+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/xiaomi-ev-robotic-charging-arm/xiaomi-ev-robotic-charging-arm-body-01.jpg",
+          "output_path": "static/images/xiaomi-ev-robotic-charging-arm/xiaomi-ev-robotic-charging-arm-body-01.jpg",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "threads",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "Hand-drawn ink 2x2 comic showing robot arm plugging, unplugging, and remote charging",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/xiaomi-ev-robotic-charging-arm/xiaomi-ev-robotic-charging-arm-threads-comic.png",
+      "output_path": "static/images/xiaomi-ev-robotic-charging-arm/xiaomi-ev-robotic-charging-arm-threads-comic.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-14T15:36:08+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/xiaomi-ev-robotic-charging-arm/xiaomi-ev-robotic-charging-arm-threads-comic.png",
+          "output_path": "static/images/xiaomi-ev-robotic-charging-arm/xiaomi-ev-robotic-charging-arm-threads-comic.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "body-2",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "Source article body image — Xiaomi charging app screenshot",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/xiaomi-ev-robotic-charging-arm/xiaomi-ev-robotic-charging-arm-body-02.jpg",
+      "output_path": "static/images/xiaomi-ev-robotic-charging-arm/xiaomi-ev-robotic-charging-arm-body-02.jpg",
+      "attempts": [
+        {
+          "timestamp": "2026-06-14T15:36:08+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/xiaomi-ev-robotic-charging-arm/xiaomi-ev-robotic-charging-arm-body-02.jpg",
+          "output_path": "static/images/xiaomi-ev-robotic-charging-arm/xiaomi-ev-robotic-charging-arm-body-02.jpg",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-1",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "Hand-drawn ink Instagram card 1 (1080x1350 cropped to 4:5)",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/xiaomi-ev-robotic-charging-arm/card-01.png",
+      "output_path": "static/images/xiaomi-ev-robotic-charging-arm/card-01.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-14T15:36:08+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/xiaomi-ev-robotic-charging-arm/card-01.png",
+          "output_path": "static/images/xiaomi-ev-robotic-charging-arm/card-01.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-2",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "Hand-drawn ink Instagram card 2 (1080x1350 cropped to 4:5)",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/xiaomi-ev-robotic-charging-arm/card-02.png",
+      "output_path": "static/images/xiaomi-ev-robotic-charging-arm/card-02.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-14T15:36:08+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/xiaomi-ev-robotic-charging-arm/card-02.png",
+          "output_path": "static/images/xiaomi-ev-robotic-charging-arm/card-02.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-3",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "Hand-drawn ink Instagram card 3 (1080x1350 cropped to 4:5)",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/xiaomi-ev-robotic-charging-arm/card-03.png",
+      "output_path": "static/images/xiaomi-ev-robotic-charging-arm/card-03.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-14T15:36:08+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/xiaomi-ev-robotic-charging-arm/card-03.png",
+          "output_path": "static/images/xiaomi-ev-robotic-charging-arm/card-03.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-4",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "Hand-drawn ink Instagram card 4 (1080x1350 cropped to 4:5)",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/xiaomi-ev-robotic-charging-arm/card-04.png",
+      "output_path": "static/images/xiaomi-ev-robotic-charging-arm/card-04.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-14T15:36:08+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/xiaomi-ev-robotic-charging-arm/card-04.png",
+          "output_path": "static/images/xiaomi-ev-robotic-charging-arm/card-04.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-5",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "Hand-drawn ink Instagram card 5 (1080x1350 cropped to 4:5)",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/xiaomi-ev-robotic-charging-arm/card-05.png",
+      "output_path": "static/images/xiaomi-ev-robotic-charging-arm/card-05.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-14T15:36:08+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/xiaomi-ev-robotic-charging-arm/card-05.png",
+          "output_path": "static/images/xiaomi-ev-robotic-charging-arm/card-05.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    }
+  ],
+  "finalized_at": "2026-06-14T15:36:12+09:00"
+}
