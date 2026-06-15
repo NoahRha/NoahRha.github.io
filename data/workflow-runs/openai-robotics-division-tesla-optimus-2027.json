@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "slug": "openai-robotics-division-tesla-optimus-2027",
+  "title": "OpenAI도 로봇 만든다: 테슬라 옵티머스의 독주는 끝났을까",
+  "source_url": "https://www.aol.com/articles/openai-just-launched-robotics-division-120500000.html",
+  "style": "hand-drawing",
+  "mode": "blog-sns",
+  "status": "AUDIT_PREBUILD_OK",
+  "created_at": "2026-06-15T11:24:11+09:00",
+  "updated_at": "2026-06-15T11:44:19+09:00",
+  "paths": {
+    "post": "content/posts/2026-06-15-openai-robotics-division-tesla-optimus-2027.md",
+    "sns": "content/social/openai-robotics-division-tesla-optimus-2027-sns.md",
+    "image_dir": "static/images/openai-robotics-division-tesla-optimus-2027",
+    "image_plan": "data/image-plans/openai-robotics-division-tesla-optimus-2027.json"
+  },
+  "required_gates": [
+    "source_url_locked",
+    "post_file_exists",
+    "sns_file_exists",
+    "required_images_exist",
+    "image_plan_complete",
+    "hugo_build_success",
+    "claude_or_gpt_review_recorded",
+    "minimax_text_revision_recorded",
+    "humanize_and_poetry_review_recorded"
+  ],
+  "review": {
+    "claude": "done",
+    "gpt_fallback": "not_needed",
+    "minimax": "done",
+    "minimax_revisions": 2,
+    "humanize_korean": "done",
+    "poetry_rhythm": "done"
+  },
+  "harness": {
+    "enabled": true,
+    "intensity": "strong",
+    "status": "text_reviewed"
+  },
+  "notes": [
+    {
+      "timestamp": "2026-06-15T11:26:47+09:00",
+      "text": "blocked: audit draft 실패: post file missing: content/LLM-info/openai-robotics-division-tesla-optimus-2027.md"
+    }
+  ]
+}

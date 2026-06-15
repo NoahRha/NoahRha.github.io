@@ -1,0 +1,265 @@
+{
+  "schema_version": "1.1",
+  "slug": "openai-robotics-division-tesla-optimus-2027",
+  "title": "OpenAI도 로봇 만든다: 테슬라 옵티머스의 독주는 끝났을까",
+  "profile": "default",
+  "style_group": "job",
+  "style": "hand-drawing",
+  "fallback_order": [
+    "gpt-image-2",
+    "minimax-portal/image-01"
+  ],
+  "regenerate_groups": {
+    "instagram": "instagram-carousel"
+  },
+  "batches": [
+    [
+      "cover",
+      "threads",
+      "instagram-1"
+    ],
+    [
+      "instagram-2",
+      "instagram-3",
+      "instagram-4"
+    ],
+    [
+      "instagram-5"
+    ]
+  ],
+  "assets": [
+    {
+      "id": "cover",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "hand-drawing pencil and watercolor visual for cover",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openai-robotics-division-tesla-optimus-2027/openai-robotics-division-tesla-optimus-2027-cover.png",
+      "output_path": "static/images/openai-robotics-division-tesla-optimus-2027/openai-robotics-division-tesla-optimus-2027-cover.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-15T11:43:35+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openai-robotics-division-tesla-optimus-2027/openai-robotics-division-tesla-optimus-2027-cover.png",
+          "output_path": "static/images/openai-robotics-division-tesla-optimus-2027/openai-robotics-division-tesla-optimus-2027-cover.png",
+          "status": "copied"
+        },
+        {
+          "timestamp": "2026-06-15T11:43:43+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openai-robotics-division-tesla-optimus-2027/openai-robotics-division-tesla-optimus-2027-cover.png",
+          "output_path": "static/images/openai-robotics-division-tesla-optimus-2027/openai-robotics-division-tesla-optimus-2027-cover.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "threads",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "hand-drawing pencil and watercolor visual for threads",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openai-robotics-division-tesla-optimus-2027/openai-robotics-division-tesla-optimus-2027-threads-comic.png",
+      "output_path": "static/images/openai-robotics-division-tesla-optimus-2027/openai-robotics-division-tesla-optimus-2027-threads-comic.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-15T11:43:35+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openai-robotics-division-tesla-optimus-2027/openai-robotics-division-tesla-optimus-2027-threads-comic.png",
+          "output_path": "static/images/openai-robotics-division-tesla-optimus-2027/openai-robotics-division-tesla-optimus-2027-threads-comic.png",
+          "status": "copied"
+        },
+        {
+          "timestamp": "2026-06-15T11:43:43+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openai-robotics-division-tesla-optimus-2027/openai-robotics-division-tesla-optimus-2027-threads-comic.png",
+          "output_path": "static/images/openai-robotics-division-tesla-optimus-2027/openai-robotics-division-tesla-optimus-2027-threads-comic.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-1",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "hand-drawing pencil and watercolor visual for instagram-1",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openai-robotics-division-tesla-optimus-2027/card-01.png",
+      "output_path": "static/images/openai-robotics-division-tesla-optimus-2027/card-01.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-15T11:43:35+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openai-robotics-division-tesla-optimus-2027/card-01.png",
+          "output_path": "static/images/openai-robotics-division-tesla-optimus-2027/card-01.png",
+          "status": "copied"
+        },
+        {
+          "timestamp": "2026-06-15T11:43:43+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openai-robotics-division-tesla-optimus-2027/card-01.png",
+          "output_path": "static/images/openai-robotics-division-tesla-optimus-2027/card-01.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-2",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "hand-drawing pencil and watercolor visual for instagram-2",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openai-robotics-division-tesla-optimus-2027/card-02.png",
+      "output_path": "static/images/openai-robotics-division-tesla-optimus-2027/card-02.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-15T11:43:35+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openai-robotics-division-tesla-optimus-2027/card-02.png",
+          "output_path": "static/images/openai-robotics-division-tesla-optimus-2027/card-02.png",
+          "status": "copied"
+        },
+        {
+          "timestamp": "2026-06-15T11:43:43+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openai-robotics-division-tesla-optimus-2027/card-02.png",
+          "output_path": "static/images/openai-robotics-division-tesla-optimus-2027/card-02.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-3",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "hand-drawing pencil and watercolor visual for instagram-3",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openai-robotics-division-tesla-optimus-2027/card-03.png",
+      "output_path": "static/images/openai-robotics-division-tesla-optimus-2027/card-03.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-15T11:43:35+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openai-robotics-division-tesla-optimus-2027/card-03.png",
+          "output_path": "static/images/openai-robotics-division-tesla-optimus-2027/card-03.png",
+          "status": "copied"
+        },
+        {
+          "timestamp": "2026-06-15T11:43:43+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openai-robotics-division-tesla-optimus-2027/card-03.png",
+          "output_path": "static/images/openai-robotics-division-tesla-optimus-2027/card-03.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-4",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "hand-drawing pencil and watercolor visual for instagram-4",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openai-robotics-division-tesla-optimus-2027/card-04.png",
+      "output_path": "static/images/openai-robotics-division-tesla-optimus-2027/card-04.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-15T11:43:35+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openai-robotics-division-tesla-optimus-2027/card-04.png",
+          "output_path": "static/images/openai-robotics-division-tesla-optimus-2027/card-04.png",
+          "status": "copied"
+        },
+        {
+          "timestamp": "2026-06-15T11:43:43+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openai-robotics-division-tesla-optimus-2027/card-04.png",
+          "output_path": "static/images/openai-robotics-division-tesla-optimus-2027/card-04.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-5",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "hand-drawing pencil and watercolor visual for instagram-5",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openai-robotics-division-tesla-optimus-2027/card-05.png",
+      "output_path": "static/images/openai-robotics-division-tesla-optimus-2027/card-05.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-15T11:43:35+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openai-robotics-division-tesla-optimus-2027/card-05.png",
+          "output_path": "static/images/openai-robotics-division-tesla-optimus-2027/card-05.png",
+          "status": "copied"
+        },
+        {
+          "timestamp": "2026-06-15T11:43:43+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/openai-robotics-division-tesla-optimus-2027/card-05.png",
+          "output_path": "static/images/openai-robotics-division-tesla-optimus-2027/card-05.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    }
+  ],
+  "created_at": "2026-06-15T11:24:11+09:00",
+  "updated_at": "2026-06-15T11:43:57+09:00"
+}
