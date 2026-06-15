@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "slug": "spacex-el-segundo-aerospace-spinoff-california",
+  "title": "스페이스X 스핀오프가 만든 엘세군도 항공우주 메카",
+  "source_url": "https://nypost.com/2026/06/14/opinion/spacex-spinoffs-launch-el-segundo-into-economic-orbit/",
+  "style": "hand-drawing",
+  "mode": "blog-sns",
+  "status": "AUDIT_PREBUILD_OK",
+  "created_at": "2026-06-15T14:12:57+09:00",
+  "updated_at": "2026-06-15T14:25:52+09:00",
+  "paths": {
+    "post": "content/LLM-info/spacex-el-segundo-aerospace-spinoff-california.md",
+    "sns": "content/social/spacex-el-segundo-aerospace-spinoff-california-sns.md",
+    "image_dir": "static/images/spacex-el-segundo-aerospace-spinoff-california",
+    "image_plan": "data/image-plans/spacex-el-segundo-aerospace-spinoff-california.json"
+  },
+  "required_gates": [
+    "source_url_locked",
+    "post_file_exists",
+    "sns_file_exists",
+    "required_images_exist",
+    "image_plan_complete",
+    "hugo_build_success",
+    "claude_or_gpt_review_recorded",
+    "minimax_text_revision_recorded",
+    "humanize_and_poetry_review_recorded"
+  ],
+  "review": {
+    "claude": "done",
+    "gpt_fallback": "not_needed",
+    "minimax": "done",
+    "minimax_revisions": 2,
+    "humanize_korean": "done",
+    "poetry_rhythm": "done"
+  },
+  "harness": {
+    "enabled": true,
+    "intensity": "strong",
+    "status": "text_reviewed"
+  },
+  "notes": [
+    {
+      "timestamp": "2026-06-15T14:15:50+09:00",
+      "text": "blocked: audit draft 실패: post file missing: content/LLM-info/spacex-el-segundo-aerospace-spinoff-california.md"
+    },
+    {
+      "timestamp": "2026-06-15T14:17:13+09:00",
+      "text": "blocked: audit draft 실패: SNS package missing: content/social/spacex-el-segundo-aerospace-spinoff-california-sns.md"
+    }
+  ]
+}
