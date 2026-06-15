@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "slug": "glp1-low-blood-pressure-fainting-northwestern",
+  "title": "GLP-1 다이어트약, 저혈압·기절 위험 1.5배 증가 — 노스웨스턴 4만2천명 연구",
+  "source_url": "https://neurosciencenews.com/glp1-low-blood-pressure-fainting-30883/",
+  "style": "oil",
+  "mode": "blog-sns",
+  "status": "AUDIT_PRECOMMIT_OK",
+  "created_at": "2026-06-15T16:16:56+09:00",
+  "updated_at": "2026-06-15T16:32:53+09:00",
+  "paths": {
+    "post": "content/posts/glp1-low-blood-pressure-fainting-northwestern.md",
+    "sns": "content/social/glp1-low-blood-pressure-fainting-northwestern-sns.md",
+    "image_dir": "static/images/glp1-low-blood-pressure-fainting-northwestern",
+    "image_plan": "data/image-plans/glp1-low-blood-pressure-fainting-northwestern.json"
+  },
+  "required_gates": [
+    "source_url_locked",
+    "post_file_exists",
+    "sns_file_exists",
+    "required_images_exist",
+    "image_plan_complete",
+    "hugo_build_success",
+    "claude_or_gpt_review_recorded",
+    "minimax_text_revision_recorded",
+    "humanize_and_poetry_review_recorded"
+  ],
+  "review": {
+    "claude": "done",
+    "gpt_fallback": "not_needed",
+    "minimax": "done",
+    "minimax_revisions": 2,
+    "humanize_korean": "done",
+    "poetry_rhythm": "done"
+  },
+  "harness": {
+    "enabled": true,
+    "intensity": "strong",
+    "status": "text_reviewed"
+  },
+  "notes": [
+    {
+      "timestamp": "2026-06-15T16:18:53+09:00",
+      "text": "blocked: audit draft 실패: post file missing: content/LLM-info/glp1-low-blood-pressure-fainting-northwestern.md"
+    },
+    {
+      "timestamp": "2026-06-15T16:19:32+09:00",
+      "text": "blocked: audit draft 실패: post file missing: content/LLM-info/glp1-low-blood-pressure-fainting-northwestern.md"
+    },
+    {
+      "timestamp": "2026-06-15T16:32:36+09:00",
+      "text": "blocked: audit precommit 실패: latest Hugo success is older than one or more audited artifacts"
+    }
+  ]
+}

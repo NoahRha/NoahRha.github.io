@@ -1,0 +1,261 @@
+{
+  "schema_version": "1.1",
+  "slug": "glp1-low-blood-pressure-fainting-northwestern",
+  "title": "GLP-1 다이어트약, 저혈압·기절 위험 1.5배 증가 — 노스웨스턴 4만2천명 연구",
+  "profile": "default",
+  "style_group": "job",
+  "style": "oil",
+  "fallback_order": [
+    "gpt-image-2",
+    "minimax-portal/image-01"
+  ],
+  "regenerate_groups": {
+    "instagram": "instagram-carousel"
+  },
+  "batches": [
+    [
+      "cover",
+      "body-1",
+      "threads"
+    ],
+    [
+      "body-2",
+      "instagram-1",
+      "instagram-2"
+    ],
+    [
+      "instagram-3",
+      "instagram-4",
+      "instagram-5"
+    ]
+  ],
+  "assets": [
+    {
+      "id": "cover",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "oil",
+      "status": "reviewed",
+      "prompt": "rich expressive fine-art oil painting, thick visible impasto brushstrokes and palette-knife texture, layered glossy oil paint with deep luminous color, vivid saturated pigments and dramatic chiaroscuro lighting, painterly canvas texture, museum-quality classical composition, strongly conveys the feel of real oil paint on canvas, no readable text, no labels. single visual metaphor for the blog's core message. Topic: GLP-1 다이어트약, 저혈압·기절 위험 1.5배 증가 — 노스웨스턴 4만2천명 연구. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/glp1-low-blood-pressure-fainting-northwestern/glp1-low-blood-pressure-fainting-northwestern-cover.png",
+      "output_path": "static/images/glp1-low-blood-pressure-fainting-northwestern/glp1-low-blood-pressure-fainting-northwestern-cover.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-15T16:31:37+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/glp1-low-blood-pressure-fainting-northwestern/glp1-low-blood-pressure-fainting-northwestern-cover.png",
+          "output_path": "static/images/glp1-low-blood-pressure-fainting-northwestern/glp1-low-blood-pressure-fainting-northwestern-cover.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "body-1",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "oil",
+      "status": "reviewed",
+      "prompt": "rich expressive fine-art oil painting, thick visible impasto brushstrokes and palette-knife texture, layered glossy oil paint with deep luminous color, vivid saturated pigments and dramatic chiaroscuro lighting, painterly canvas texture, museum-quality classical composition, strongly conveys the feel of real oil paint on canvas, no readable text, no labels. supporting body illustration that explains the first key mechanism. Topic: GLP-1 다이어트약, 저혈압·기절 위험 1.5배 증가 — 노스웨스턴 4만2천명 연구. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/glp1-low-blood-pressure-fainting-northwestern/glp1-low-blood-pressure-fainting-northwestern-body-01.png",
+      "output_path": "static/images/glp1-low-blood-pressure-fainting-northwestern/glp1-low-blood-pressure-fainting-northwestern-body-01.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-15T16:31:37+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/glp1-low-blood-pressure-fainting-northwestern/glp1-low-blood-pressure-fainting-northwestern-body-01.png",
+          "output_path": "static/images/glp1-low-blood-pressure-fainting-northwestern/glp1-low-blood-pressure-fainting-northwestern-body-01.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "threads",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "oil",
+      "status": "reviewed",
+      "prompt": "rich expressive fine-art oil painting, thick visible impasto brushstrokes and palette-knife texture, layered glossy oil paint with deep luminous color, vivid saturated pigments and dramatic chiaroscuro lighting, painterly canvas texture, museum-quality classical composition, strongly conveys the feel of real oil paint on canvas, no readable text, no labels. four-panel comic layout summarizing the blog idea without text. Topic: GLP-1 다이어트약, 저혈압·기절 위험 1.5배 증가 — 노스웨스턴 4만2천명 연구. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/glp1-low-blood-pressure-fainting-northwestern/glp1-low-blood-pressure-fainting-northwestern-threads-comic.png",
+      "output_path": "static/images/glp1-low-blood-pressure-fainting-northwestern/glp1-low-blood-pressure-fainting-northwestern-threads-comic.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-15T16:31:37+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/glp1-low-blood-pressure-fainting-northwestern/glp1-low-blood-pressure-fainting-northwestern-threads-comic.png",
+          "output_path": "static/images/glp1-low-blood-pressure-fainting-northwestern/glp1-low-blood-pressure-fainting-northwestern-threads-comic.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "body-2",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "oil",
+      "status": "reviewed",
+      "prompt": "rich expressive fine-art oil painting, thick visible impasto brushstrokes and palette-knife texture, layered glossy oil paint with deep luminous color, vivid saturated pigments and dramatic chiaroscuro lighting, painterly canvas texture, museum-quality classical composition, strongly conveys the feel of real oil paint on canvas, no readable text, no labels. supporting body illustration for the practical implication. Topic: GLP-1 다이어트약, 저혈압·기절 위험 1.5배 증가 — 노스웨스턴 4만2천명 연구. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/glp1-low-blood-pressure-fainting-northwestern/glp1-low-blood-pressure-fainting-northwestern-body-02.png",
+      "output_path": "static/images/glp1-low-blood-pressure-fainting-northwestern/glp1-low-blood-pressure-fainting-northwestern-body-02.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-15T16:31:37+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/glp1-low-blood-pressure-fainting-northwestern/glp1-low-blood-pressure-fainting-northwestern-body-02.png",
+          "output_path": "static/images/glp1-low-blood-pressure-fainting-northwestern/glp1-low-blood-pressure-fainting-northwestern-body-02.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-1",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "oil",
+      "status": "reviewed",
+      "prompt": "rich expressive fine-art oil painting, thick visible impasto brushstrokes and palette-knife texture, layered glossy oil paint with deep luminous color, vivid saturated pigments and dramatic chiaroscuro lighting, painterly canvas texture, museum-quality classical composition, strongly conveys the feel of real oil paint on canvas, no readable text, no labels. Instagram carousel slide 1, visual hook illustration. Topic: GLP-1 다이어트약, 저혈압·기절 위험 1.5배 증가 — 노스웨스턴 4만2천명 연구. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/glp1-low-blood-pressure-fainting-northwestern/card-01.png",
+      "output_path": "static/images/glp1-low-blood-pressure-fainting-northwestern/card-01.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-15T16:31:37+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/glp1-low-blood-pressure-fainting-northwestern/card-01.png",
+          "output_path": "static/images/glp1-low-blood-pressure-fainting-northwestern/card-01.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-2",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "oil",
+      "status": "reviewed",
+      "prompt": "rich expressive fine-art oil painting, thick visible impasto brushstrokes and palette-knife texture, layered glossy oil paint with deep luminous color, vivid saturated pigments and dramatic chiaroscuro lighting, painterly canvas texture, museum-quality classical composition, strongly conveys the feel of real oil paint on canvas, no readable text, no labels. Instagram carousel slide 2, first key point illustration. Topic: GLP-1 다이어트약, 저혈압·기절 위험 1.5배 증가 — 노스웨스턴 4만2천명 연구. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/glp1-low-blood-pressure-fainting-northwestern/card-02.png",
+      "output_path": "static/images/glp1-low-blood-pressure-fainting-northwestern/card-02.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-15T16:31:37+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/glp1-low-blood-pressure-fainting-northwestern/card-02.png",
+          "output_path": "static/images/glp1-low-blood-pressure-fainting-northwestern/card-02.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-3",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "oil",
+      "status": "reviewed",
+      "prompt": "rich expressive fine-art oil painting, thick visible impasto brushstrokes and palette-knife texture, layered glossy oil paint with deep luminous color, vivid saturated pigments and dramatic chiaroscuro lighting, painterly canvas texture, museum-quality classical composition, strongly conveys the feel of real oil paint on canvas, no readable text, no labels. Instagram carousel slide 3, second key point illustration. Topic: GLP-1 다이어트약, 저혈압·기절 위험 1.5배 증가 — 노스웨스턴 4만2천명 연구. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/glp1-low-blood-pressure-fainting-northwestern/card-03.png",
+      "output_path": "static/images/glp1-low-blood-pressure-fainting-northwestern/card-03.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-15T16:31:37+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/glp1-low-blood-pressure-fainting-northwestern/card-03.png",
+          "output_path": "static/images/glp1-low-blood-pressure-fainting-northwestern/card-03.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-4",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "oil",
+      "status": "reviewed",
+      "prompt": "rich expressive fine-art oil painting, thick visible impasto brushstrokes and palette-knife texture, layered glossy oil paint with deep luminous color, vivid saturated pigments and dramatic chiaroscuro lighting, painterly canvas texture, museum-quality classical composition, strongly conveys the feel of real oil paint on canvas, no readable text, no labels. Instagram carousel slide 4, third key point illustration. Topic: GLP-1 다이어트약, 저혈압·기절 위험 1.5배 증가 — 노스웨스턴 4만2천명 연구. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/glp1-low-blood-pressure-fainting-northwestern/card-04.png",
+      "output_path": "static/images/glp1-low-blood-pressure-fainting-northwestern/card-04.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-15T16:31:37+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/glp1-low-blood-pressure-fainting-northwestern/card-04.png",
+          "output_path": "static/images/glp1-low-blood-pressure-fainting-northwestern/card-04.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-5",
+      "model": "minimax-portal/image-01",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "oil",
+      "status": "reviewed",
+      "prompt": "rich expressive fine-art oil painting, thick visible impasto brushstrokes and palette-knife texture, layered glossy oil paint with deep luminous color, vivid saturated pigments and dramatic chiaroscuro lighting, painterly canvas texture, museum-quality classical composition, strongly conveys the feel of real oil paint on canvas, no readable text, no labels. Instagram carousel slide 5, conclusion and CTA mood illustration. Topic: GLP-1 다이어트약, 저혈압·기절 위험 1.5배 증가 — 노스웨스턴 4만2천명 연구. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/glp1-low-blood-pressure-fainting-northwestern/card-05.png",
+      "output_path": "static/images/glp1-low-blood-pressure-fainting-northwestern/card-05.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-15T16:31:37+09:00",
+          "model": "minimax-portal/image-01",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/glp1-low-blood-pressure-fainting-northwestern/card-05.png",
+          "output_path": "static/images/glp1-low-blood-pressure-fainting-northwestern/card-05.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    }
+  ],
+  "created_at": "2026-06-15T16:16:56+09:00",
+  "updated_at": "2026-06-15T16:31:41+09:00"
+}
