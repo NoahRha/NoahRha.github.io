@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.1",
+  "slug": "2026-06-15-nearthlab-physical-ai-drone-defense-200b",
+  "title": "해외 국방부와 손잡고 매출 200억 — 니어스랩 최재혁이 말하는 '글로벌 1등' 전략",
+  "profile": "default",
+  "style_group": "job",
+  "style": "hand-drawing",
+  "fallback_order": [
+    "gpt-image-2",
+    "minimax-portal/image-01"
+  ],
+  "batches": [
+    [
+      "cover"
+    ]
+  ],
+  "assets": [
+    {
+      "id": "cover",
+      "model": "gpt-image-2",
+      "provider": "openai",
+      "aspect_ratio": "1:1",
+      "style": "hand-drawing",
+      "status": "reviewed",
+      "prompt": "meticulous and highly detailed hand-drawn pen-and-ink illustration, expert confident linework with dense cross-hatching and fine stippling for shading, intricate editorial drawing with rich detail throughout, the BACKGROUND is fully drawn as a contextual scene/environment related to the article topic (do NOT leave the background as blank white space — draw a relevant detailed setting behind the subject), ink and graphite tones, hand-drawn texture, no readable text, no labels. single visual metaphor for the blog's core message. Topic: 해외 국방부와 손잡고 매출 200억 — 니어스랩 최재혁이 말하는 '글로벌 1등' 전략. Square 1:1 composition, polished blog and social media artwork.",
+      "generated_path": "/Users/noah/.openclaw/blog-sns-web/backend/data/youtube_assets/해외_국방부와_손_잡고_매출_200억_찍은_스타트업_니어스랩_최재혁_in_eceab490.png",
+      "output_path": "static/images/2026-06-15-nearthlab-physical-ai-drone-defense-200b/cover.png",
+      "attempts": [
+        {
+          "model": "gpt-image-2",
+          "provider": "openai",
+          "ts": "2026-06-15T21:58:25+09:00",
+          "result": "success",
+          "note": "user-provided infographic"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      },
+      "reviewed": true
+    }
+  ],
+  "created_at": "2026-06-15T21:58:35+09:00",
+  "updated_at": "2026-06-15T21:58:35+09:00",
+  "mode": "blog"
+}
