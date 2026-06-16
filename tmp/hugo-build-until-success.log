@@ -1,0 +1,364 @@
+[2026-06-06 19:18:41 KST] hugo build attempt 1
+Start building sites … 
+hugo v0.160.1+extended+withdeploy darwin/arm64 BuildDate=2026-04-08T14:02:42Z VendorInfo=Homebrew
+
+
+                  │ KO  
+──────────────────┼─────
+ Pages            │ 653 
+ Paginator pages  │  28 
+ Non-page files   │  20 
+ Static files     │  70 
+ Processed images │   0 
+ Aliases          │ 304 
+ Cleaned          │   0 
+
+Total in 360 ms
+[2026-06-06 19:18:41 KST] hugo build succeeded on attempt 1
+[2026-06-06 20:46:57 KST] hugo build attempt 1
+Start building sites … 
+hugo v0.160.1+extended+withdeploy darwin/arm64 BuildDate=2026-04-08T14:02:42Z VendorInfo=Homebrew
+
+
+                  │ KO  
+──────────────────┼─────
+ Pages            │ 653 
+ Paginator pages  │  28 
+ Non-page files   │  20 
+ Static files     │  77 
+ Processed images │   0 
+ Aliases          │ 304 
+ Cleaned          │   0 
+
+Total in 402 ms
+[2026-06-06 20:46:58 KST] hugo build succeeded on attempt 1
+[2026-06-08 00:04:18 KST] hugo build attempt 1
+Start building sites … 
+hugo v0.160.1+extended+withdeploy darwin/arm64 BuildDate=2026-04-08T14:02:42Z VendorInfo=Homebrew
+
+
+                  │ KO  
+──────────────────┼─────
+ Pages            │ 659 
+ Paginator pages  │  28 
+ Non-page files   │  20 
+ Static files     │  88 
+ Processed images │   0 
+ Aliases          │ 306 
+ Cleaned          │   0 
+
+Total in 237 ms
+[2026-06-08 00:04:18 KST] hugo build succeeded on attempt 1
+[2026-06-08 02:26:19 KST] hugo build attempt 1
+Start building sites … 
+hugo v0.160.1+extended+withdeploy darwin/arm64 BuildDate=2026-04-08T14:02:42Z VendorInfo=Homebrew
+
+
+                  │ KO  
+──────────────────┼─────
+ Pages            │ 671 
+ Paginator pages  │  28 
+ Non-page files   │  20 
+ Static files     │  98 
+ Processed images │   0 
+ Aliases          │ 311 
+ Cleaned          │   0 
+
+Total in 481 ms
+[2026-06-08 02:26:20 KST] hugo build succeeded on attempt 1
+[2026-06-08 02:57:15 KST] hugo build attempt 1
+Start building sites … 
+hugo v0.160.1+extended+withdeploy darwin/arm64 BuildDate=2026-04-08T14:02:42Z VendorInfo=Homebrew
+
+
+                  │ KO  
+──────────────────┼─────
+ Pages            │ 683 
+ Paginator pages  │  28 
+ Non-page files   │  20 
+ Static files     │ 108 
+ Processed images │   0 
+ Aliases          │ 316 
+ Cleaned          │   0 
+
+Total in 498 ms
+[2026-06-08 02:57:16 KST] hugo build succeeded on attempt 1
+[2026-06-08 11:35:42 KST] hugo build attempt 1
+Start building sites … 
+hugo v0.160.1+extended+withdeploy darwin/arm64 BuildDate=2026-04-08T14:02:42Z VendorInfo=Homebrew
+
+
+                  │  KO  
+──────────────────┼──────
+ Pages            │ 1857 
+ Paginator pages  │   84 
+ Non-page files   │   69 
+ Static files     │  792 
+ Processed images │    0 
+ Aliases          │  823 
+ Cleaned          │    0 
+
+Total in 1602 ms
+[2026-06-08 11:35:44 KST] hugo build succeeded on attempt 1
+[2026-06-09 16:42:52 KST] hugo build attempt 1
+Start building sites … 
+hugo v0.160.1+extended+withdeploy darwin/arm64 BuildDate=2026-04-08T14:02:42Z VendorInfo=Homebrew
+
+
+                  │ KO  
+──────────────────┼─────
+ Pages            │ 704 
+ Paginator pages  │  30 
+ Non-page files   │  20 
+ Static files     │ 152 
+ Processed images │   0 
+ Aliases          │ 324 
+ Cleaned          │   0 
+
+Total in 299 ms
+[2026-06-09 16:42:52 KST] hugo build succeeded on attempt 1
+[2026-06-09 17:42:30 KST] hugo build attempt 1
+Start building sites … 
+hugo v0.160.1+extended+withdeploy darwin/arm64 BuildDate=2026-04-08T14:02:42Z VendorInfo=Homebrew
+
+
+                  │ KO  
+──────────────────┼─────
+ Pages            │ 720 
+ Paginator pages  │  30 
+ Non-page files   │  20 
+ Static files     │ 162 
+ Processed images │   0 
+ Aliases          │ 331 
+ Cleaned          │   0 
+
+Total in 584 ms
+[2026-06-09 17:42:31 KST] hugo build succeeded on attempt 1
+[2026-06-10 16:38:11 KST] hugo build attempt 1
+Start building sites … 
+hugo v0.160.1+extended+withdeploy darwin/arm64 BuildDate=2026-04-08T14:02:42Z VendorInfo=Homebrew
+
+
+                  │ KO  
+──────────────────┼─────
+ Pages            │ 740 
+ Paginator pages  │  31 
+ Non-page files   │  20 
+ Static files     │ 239 
+ Processed images │   0 
+ Aliases          │ 335 
+ Cleaned          │   0 
+
+Total in 840 ms
+[2026-06-10 16:38:12 KST] hugo build succeeded on attempt 1
+[2026-06-10 16:40:05 KST] hugo build attempt 1
+Start building sites … 
+hugo v0.160.1+extended+withdeploy darwin/arm64 BuildDate=2026-04-08T14:02:42Z VendorInfo=Homebrew
+
+
+                  │ KO  
+──────────────────┼─────
+ Pages            │ 740 
+ Paginator pages  │  31 
+ Non-page files   │  20 
+ Static files     │ 239 
+ Processed images │   0 
+ Aliases          │ 335 
+ Cleaned          │   0 
+
+Total in 835 ms
+[2026-06-10 16:40:06 KST] hugo build succeeded on attempt 1
+[2026-06-12 20:40:04 KST] hugo build attempt 1
+Start building sites … 
+hugo v0.160.1+extended+withdeploy darwin/arm64 BuildDate=2026-04-08T14:02:42Z VendorInfo=Homebrew
+
+
+                  │ KO  
+──────────────────┼─────
+ Pages            │ 804 
+ Paginator pages  │  34 
+ Non-page files   │  20 
+ Static files     │ 417 
+ Processed images │   0 
+ Aliases          │ 357 
+ Cleaned          │   0 
+
+Total in 318 ms
+[2026-06-12 20:40:04 KST] hugo build succeeded on attempt 1
+[2026-06-12 23:50:38 KST] hugo build succeeded for openai-anthropic-api-token-price-war (techllm)
+[2026-06-13 00:40:03 KST] hugo build attempt 1
+Start building sites … 
+hugo v0.160.1+extended+withdeploy darwin/arm64 BuildDate=2026-04-08T14:02:42Z VendorInfo=Homebrew
+
+
+                  │ KO  
+──────────────────┼─────
+ Pages            │ 827 
+ Paginator pages  │  34 
+ Non-page files   │  20 
+ Static files     │ 446 
+ Processed images │   0 
+ Aliases          │ 366 
+ Cleaned          │   0 
+
+Total in 645 ms
+[2026-06-13 00:40:04 KST] hugo build succeeded on attempt 1
+[2026-06-13 13:30:10 KST] hugo build attempt 1
+Start building sites … 
+hugo v0.160.1+extended+withdeploy darwin/arm64 BuildDate=2026-04-08T14:02:42Z VendorInfo=Homebrew
+
+
+                  │ KO  
+──────────────────┼─────
+ Pages            │ 840 
+ Paginator pages  │  34 
+ Non-page files   │  20 
+ Static files     │ 481 
+ Processed images │   0 
+ Aliases          │ 370 
+ Cleaned          │   0 
+
+Total in 1307 ms
+[2026-06-13 13:30:11 KST] hugo build succeeded on attempt 1
+[2026-06-13 14:20:42 KST] hugo build attempt 1
+Start building sites … 
+hugo v0.160.1+extended+withdeploy darwin/arm64 BuildDate=2026-04-08T14:02:42Z VendorInfo=Homebrew
+
+
+                  │ KO  
+──────────────────┼─────
+ Pages            │ 843 
+ Paginator pages  │  34 
+ Non-page files   │  20 
+ Static files     │ 498 
+ Processed images │   0 
+ Aliases          │ 370 
+ Cleaned          │   0 
+
+Total in 1314 ms
+[2026-06-13 14:20:43 KST] hugo build succeeded on attempt 1
+[2026-06-13 17:58:37 KST] hugo build attempt 1
+Start building sites … 
+hugo v0.160.1+extended+withdeploy darwin/arm64 BuildDate=2026-04-08T14:02:42Z VendorInfo=Homebrew
+
+
+                  │ KO  
+──────────────────┼─────
+ Pages            │ 857 
+ Paginator pages  │  35 
+ Non-page files   │  20 
+ Static files     │ 509 
+ Processed images │   0 
+ Aliases          │ 376 
+ Cleaned          │   0 
+
+Total in 1329 ms
+[2026-06-13 17:58:38 KST] hugo build succeeded on attempt 1
+[2026-06-14 15:36:54 KST] hugo build attempt 1
+Start building sites … 
+hugo v0.160.1+extended+withdeploy darwin/arm64 BuildDate=2026-04-08T14:02:42Z VendorInfo=Homebrew
+
+
+                  │ KO  
+──────────────────┼─────
+ Pages            │ 887 
+ Paginator pages  │  38 
+ Non-page files   │  20 
+ Static files     │ 599 
+ Processed images │   0 
+ Aliases          │ 385 
+ Cleaned          │   0 
+
+Total in 1165 ms
+[2026-06-14 15:36:55 KST] hugo build succeeded on attempt 1
+[2026-06-14 17:12:13 KST] hugo build succeeded
+[2026-06-14 17:12:13 KST] hugo build succeeded for elle-daily-horoscope-2026-06-14-gemini-new-moon
+[2026-06-15 10:54:25 KST] hugo build succeeded (build 1)
+[2026-06-15 10:54:25 KST] hugo build succeeded (build 1)
+[2026-06-15 11:44:55 KST] hugo build attempt 1
+Start building sites … 
+hugo v0.160.1+extended+withdeploy darwin/arm64 BuildDate=2026-04-08T14:02:42Z VendorInfo=Homebrew
+
+
+                  │ KO  
+──────────────────┼─────
+ Pages            │ 969 
+ Paginator pages  │  40 
+ Non-page files   │  20 
+ Static files     │ 716 
+ Processed images │   0 
+ Aliases          │ 417 
+ Cleaned          │   0 
+
+Total in 607 ms
+[2026-06-15 11:44:56 KST] hugo build succeeded on attempt 1
+[2026-06-15 13:24:20 KST] hugo build attempt 1
+Start building sites … 
+hugo v0.160.1+extended+withdeploy darwin/arm64 BuildDate=2026-04-08T14:02:42Z VendorInfo=Homebrew
+
+
+                  │ KO  
+──────────────────┼─────
+ Pages            │ 977 
+ Paginator pages  │  40 
+ Non-page files   │  20 
+ Static files     │ 726 
+ Processed images │   0 
+ Aliases          │ 420 
+ Cleaned          │   0 
+
+Total in 527 ms
+[2026-06-15 13:24:21 KST] hugo build succeeded on attempt 1
+[2026-06-15 14:26:08 KST] hugo build succeeded
+[2026-06-15 16:32:47 KST] hugo build attempt 1
+Start building sites … 
+hugo v0.160.1+extended+withdeploy darwin/arm64 BuildDate=2026-04-08T14:02:42Z VendorInfo=Homebrew
+
+
+                  │  KO  
+──────────────────┼──────
+ Pages            │ 1003 
+ Paginator pages  │   41 
+ Non-page files   │   20 
+ Static files     │  750 
+ Processed images │    0 
+ Aliases          │  431 
+ Cleaned          │    0 
+
+Total in 779 ms
+[2026-06-15 16:32:48 KST] hugo build succeeded on attempt 1
+[2026-06-15 20:01:56 KST] hugo build succeeded on attempt 1 (rebuild after image regen)
+[2026-06-15 22:05:10 KST] hugo build attempt 1
+Start building sites … 
+hugo v0.160.1+extended+withdeploy darwin/arm64 BuildDate=2026-04-08T14:02:42Z VendorInfo=Homebrew
+
+
+                  │  KO  
+──────────────────┼──────
+ Pages            │ 1025 
+ Paginator pages  │   41 
+ Non-page files   │   20 
+ Static files     │  769 
+ Processed images │    0 
+ Aliases          │  440 
+ Cleaned          │    0 
+
+Total in 2178 ms
+[2026-06-15 22:05:13 KST] hugo build succeeded on attempt 1
+[2026-06-16 17:18:41 KST] hugo build attempt 1
+Start building sites … 
+hugo v0.160.1+extended+withdeploy darwin/arm64 BuildDate=2026-04-08T14:02:42Z VendorInfo=Homebrew
+
+
+                  │  KO  
+──────────────────┼──────
+ Pages            │ 1051 
+ Paginator pages  │   42 
+ Non-page files   │   20 
+ Static files     │  790 
+ Processed images │    0 
+ Aliases          │  451 
+ Cleaned          │    0 
+
+Total in 2374 ms
+[2026-06-16 17:18:43 KST] hugo build succeeded on attempt 1
