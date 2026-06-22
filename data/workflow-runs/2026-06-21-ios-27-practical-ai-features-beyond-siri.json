@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "slug": "2026-06-21-ios-27-practical-ai-features-beyond-siri",
+  "title": "iOS 27 실용 AI 기능 8가지 — Siri 너머 아이폰이 바뀌는 방식",
+  "source_url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
+  "style": "hand-drawing",
+  "mode": "blog-sns",
+  "status": "AUDIT_PRECOMMIT_OK",
+  "created_at": "2026-06-22T12:46:11+09:00",
+  "updated_at": "2026-06-22T12:55:21+09:00",
+  "paths": {
+    "post": "content/posts/2026-06-21-ios-27-practical-ai-features-beyond-siri.md",
+    "sns": "content/social/2026-06-21-ios-27-practical-ai-features-beyond-siri-sns.md",
+    "image_dir": "static/images/2026-06-21-ios-27-practical-ai-features-beyond-siri",
+    "image_plan": "data/image-plans/2026-06-21-ios-27-practical-ai-features-beyond-siri.json"
+  },
+  "required_gates": [
+    "source_url_locked",
+    "post_file_exists",
+    "sns_file_exists",
+    "required_images_exist",
+    "image_plan_complete",
+    "hugo_build_success",
+    "claude_or_gpt_review_recorded",
+    "minimax_text_revision_recorded",
+    "humanize_and_poetry_review_recorded"
+  ],
+  "review": {
+    "claude": "done",
+    "gpt_fallback": "not_needed",
+    "minimax": "done",
+    "minimax_revisions": 2,
+    "humanize_korean": "done",
+    "poetry_rhythm": "done"
+  },
+  "harness": {
+    "enabled": true,
+    "intensity": "strong",
+    "status": "text_reviewed"
+  },
+  "notes": [
+    {
+      "timestamp": "2026-06-22T12:48:13+09:00",
+      "text": "blocked: audit draft 실패: post file missing: content/LLM-info/2026-06-21-ios-27-practical-ai-features-beyond-siri.md"
+    },
+    {
+      "timestamp": "2026-06-22T12:55:05+09:00",
+      "text": "blocked: audit precommit 실패: latest Hugo success is older than one or more audited artifacts"
+    }
+  ]
+}
