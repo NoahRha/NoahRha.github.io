@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "slug": "huggingface-hub-ci-trust-verify",
+  "title": "허깅페이스가 매주 huggingface_hub를 출시하는 법 — Trust-but-Verify 패턴 해부",
+  "source_url": "https://huggingface.co/blog/huggingface-hub-release-ci",
+  "style": "oil",
+  "mode": "blog-sns",
+  "status": "BLOCKED",
+  "created_at": "2026-06-23T19:34:31+09:00",
+  "updated_at": "2026-06-23T19:37:20+09:00",
+  "paths": {
+    "post": "content/LLM-info/huggingface-hub-ci-trust-verify.md",
+    "sns": "content/social/huggingface-hub-ci-trust-verify-sns.md",
+    "image_dir": "static/images/huggingface-hub-ci-trust-verify",
+    "image_plan": "data/image-plans/huggingface-hub-ci-trust-verify.json"
+  },
+  "required_gates": [
+    "source_url_locked",
+    "post_file_exists",
+    "sns_file_exists",
+    "required_images_exist",
+    "image_plan_complete",
+    "hugo_build_success",
+    "claude_or_gpt_review_recorded",
+    "minimax_text_revision_recorded",
+    "humanize_and_poetry_review_recorded"
+  ],
+  "review": {
+    "claude": "done",
+    "gpt_fallback": "not_needed",
+    "minimax": "done",
+    "minimax_revisions": 2,
+    "humanize_korean": "done",
+    "poetry_rhythm": "done"
+  },
+  "harness": {
+    "enabled": true,
+    "intensity": "strong",
+    "status": "text_reviewed"
+  },
+  "notes": [
+    {
+      "timestamp": "2026-06-23T19:37:20+09:00",
+      "text": "blocked: audit draft 실패: post file missing: content/LLM-info/huggingface-hub-ci-trust-verify.md"
+    }
+  ],
+  "blocked_reason": "audit draft 실패: post file missing: content/LLM-info/huggingface-hub-ci-trust-verify.md"
+}
