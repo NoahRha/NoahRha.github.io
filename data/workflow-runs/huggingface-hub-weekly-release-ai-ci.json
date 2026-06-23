@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "slug": "huggingface-hub-weekly-release-ai-ci",
+  "title": "허깅페이스가 매주 라이브러리를 출시하는 법 — AI 초안과 결정론적 검증의 합작",
+  "source_url": "https://huggingface.co/blog/huggingface-hub-release-ci",
+  "style": "oil",
+  "mode": "blog-sns",
+  "status": "AUDIT_PRECOMMIT_OK",
+  "created_at": "2026-06-23T18:14:14+09:00",
+  "updated_at": "2026-06-23T18:39:48+09:00",
+  "paths": {
+    "post": "content/LLM-info/huggingface-hub-weekly-release-ai-ci.md",
+    "sns": "content/social/huggingface-hub-weekly-release-ai-ci-sns.md",
+    "image_dir": "static/images/huggingface-hub-weekly-release-ai-ci",
+    "image_plan": "data/image-plans/huggingface-hub-weekly-release-ai-ci.json"
+  },
+  "required_gates": [
+    "source_url_locked",
+    "post_file_exists",
+    "sns_file_exists",
+    "required_images_exist",
+    "image_plan_complete",
+    "hugo_build_success",
+    "claude_or_gpt_review_recorded",
+    "minimax_text_revision_recorded",
+    "humanize_and_poetry_review_recorded"
+  ],
+  "review": {
+    "claude": "done",
+    "gpt_fallback": "not_needed",
+    "minimax": "done",
+    "minimax_revisions": 2,
+    "humanize_korean": "done",
+    "poetry_rhythm": "done"
+  },
+  "harness": {
+    "enabled": true,
+    "intensity": "strong",
+    "status": "text_reviewed"
+  },
+  "notes": [
+    {
+      "timestamp": "2026-06-23T18:17:32+09:00",
+      "text": "blocked: audit draft 실패: post file missing: content/LLM-info/huggingface-hub-weekly-release-ai-ci.md"
+    },
+    {
+      "timestamp": "2026-06-23T18:17:33+09:00",
+      "text": "blocked: audit draft 실패: post file missing: content/LLM-info/huggingface-hub-weekly-release-ai-ci.md"
+    },
+    {
+      "timestamp": "2026-06-23T18:36:27+09:00",
+      "text": "blocked: audit images 실패: image asset body-1 is not ready: status=pending"
+    },
+    {
+      "timestamp": "2026-06-23T18:39:26+09:00",
+      "text": "blocked: audit precommit 실패: latest Hugo success is older than one or more audited artifacts"
+    }
+  ]
+}

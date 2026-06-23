@@ -1,0 +1,237 @@
+{
+  "slug": "huggingface-hub-weekly-release-ai-ci",
+  "style": "oil",
+  "profile": "default",
+  "fallback_order": [
+    "gpt-image-2",
+    "minimax-portal/image-01"
+  ],
+  "assets": [
+    {
+      "id": "cover",
+      "model": "minimax",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "oil",
+      "status": "reviewed",
+      "prompt": "Korean Joseon-era minhwa folk poster style; no text",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/huggingface-hub-weekly-release-ai-ci/huggingface-hub-weekly-release-ai-ci-cover.png",
+      "output_path": "static/images/huggingface-hub-weekly-release-ai-ci/huggingface-hub-weekly-release-ai-ci-cover.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-23T18:35:59+09:00",
+          "model": "minimax",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/huggingface-hub-weekly-release-ai-ci/huggingface-hub-weekly-release-ai-ci-cover.png",
+          "output_path": "static/images/huggingface-hub-weekly-release-ai-ci/huggingface-hub-weekly-release-ai-ci-cover.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "body-1",
+      "model": "minimax",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "oil",
+      "status": "reviewed",
+      "prompt": "Korean folk illustration of gear machine auto-sorting blank scrolls; no text",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/huggingface-hub-weekly-release-ai-ci/huggingface-hub-weekly-release-ai-ci-body-01.png",
+      "output_path": "static/images/huggingface-hub-weekly-release-ai-ci/huggingface-hub-weekly-release-ai-ci-body-01.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-23T18:38:11+09:00",
+          "model": "minimax",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/huggingface-hub-weekly-release-ai-ci/huggingface-hub-weekly-release-ai-ci-body-01.png",
+          "output_path": "static/images/huggingface-hub-weekly-release-ai-ci/huggingface-hub-weekly-release-ai-ci-body-01.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "threads",
+      "model": "minimax",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "oil",
+      "status": "reviewed",
+      "prompt": "Korean Joseon-era minhwa folk poster style; no text",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/huggingface-hub-weekly-release-ai-ci/huggingface-hub-weekly-release-ai-ci-threads-comic.png",
+      "output_path": "static/images/huggingface-hub-weekly-release-ai-ci/huggingface-hub-weekly-release-ai-ci-threads-comic.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-23T18:35:59+09:00",
+          "model": "minimax",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/huggingface-hub-weekly-release-ai-ci/huggingface-hub-weekly-release-ai-ci-threads-comic.png",
+          "output_path": "static/images/huggingface-hub-weekly-release-ai-ci/huggingface-hub-weekly-release-ai-ci-threads-comic.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "body-2",
+      "model": "minimax",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "oil",
+      "status": "reviewed",
+      "prompt": "Korean folk illustration of painter and scholar on blank scroll; no text",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/huggingface-hub-weekly-release-ai-ci/huggingface-hub-weekly-release-ai-ci-body-02.png",
+      "output_path": "static/images/huggingface-hub-weekly-release-ai-ci/huggingface-hub-weekly-release-ai-ci-body-02.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-23T18:38:11+09:00",
+          "model": "minimax",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/huggingface-hub-weekly-release-ai-ci/huggingface-hub-weekly-release-ai-ci-body-02.png",
+          "output_path": "static/images/huggingface-hub-weekly-release-ai-ci/huggingface-hub-weekly-release-ai-ci-body-02.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-1",
+      "model": "minimax",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "oil",
+      "status": "reviewed",
+      "prompt": "Korean Joseon-era minhwa folk poster style; no text",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/huggingface-hub-weekly-release-ai-ci/card-01.png",
+      "output_path": "static/images/huggingface-hub-weekly-release-ai-ci/card-01.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-23T18:35:59+09:00",
+          "model": "minimax",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/huggingface-hub-weekly-release-ai-ci/card-01.png",
+          "output_path": "static/images/huggingface-hub-weekly-release-ai-ci/card-01.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-2",
+      "model": "minimax",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "oil",
+      "status": "reviewed",
+      "prompt": "Korean Joseon-era minhwa folk poster style; no text",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/huggingface-hub-weekly-release-ai-ci/card-02.png",
+      "output_path": "static/images/huggingface-hub-weekly-release-ai-ci/card-02.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-23T18:35:59+09:00",
+          "model": "minimax",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/huggingface-hub-weekly-release-ai-ci/card-02.png",
+          "output_path": "static/images/huggingface-hub-weekly-release-ai-ci/card-02.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-3",
+      "model": "minimax",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "oil",
+      "status": "reviewed",
+      "prompt": "Korean Joseon-era minhwa folk poster style; no text",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/huggingface-hub-weekly-release-ai-ci/card-03.png",
+      "output_path": "static/images/huggingface-hub-weekly-release-ai-ci/card-03.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-23T18:35:59+09:00",
+          "model": "minimax",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/huggingface-hub-weekly-release-ai-ci/card-03.png",
+          "output_path": "static/images/huggingface-hub-weekly-release-ai-ci/card-03.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-4",
+      "model": "minimax",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "oil",
+      "status": "reviewed",
+      "prompt": "Korean Joseon-era minhwa folk poster style; no text",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/huggingface-hub-weekly-release-ai-ci/card-04.png",
+      "output_path": "static/images/huggingface-hub-weekly-release-ai-ci/card-04.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-23T18:35:59+09:00",
+          "model": "minimax",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/huggingface-hub-weekly-release-ai-ci/card-04.png",
+          "output_path": "static/images/huggingface-hub-weekly-release-ai-ci/card-04.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    },
+    {
+      "id": "instagram-5",
+      "model": "minimax",
+      "provider": "minimax",
+      "aspect_ratio": "1:1",
+      "style": "oil",
+      "status": "reviewed",
+      "prompt": "Korean Joseon-era minhwa folk poster style; no text",
+      "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/huggingface-hub-weekly-release-ai-ci/card-05.png",
+      "output_path": "static/images/huggingface-hub-weekly-release-ai-ci/card-05.png",
+      "attempts": [
+        {
+          "timestamp": "2026-06-23T18:36:00+09:00",
+          "model": "minimax",
+          "provider": "minimax",
+          "generated_path": "/Users/noah/.openclaw/workspace-blogger/static/images/huggingface-hub-weekly-release-ai-ci/card-05.png",
+          "output_path": "static/images/huggingface-hub-weekly-release-ai-ci/card-05.png",
+          "status": "copied"
+        }
+      ],
+      "review": {
+        "claude": "done",
+        "gpt_fallback": "not_needed"
+      }
+    }
+  ],
+  "finalized_at": "2026-06-23T18:38:12+09:00"
+}
