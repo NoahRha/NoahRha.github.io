@@ -6,3 +6,6 @@ __pycache__/
 data/retrospectives/
 data/feedback/
 data/daily-summary/
+
+# macOS
+.DS_Store
