@@ -231,6 +231,26 @@ def run_sns_publish_wrapper(approval_log_path: Path, session_id: str, dry_run: b
     return result.returncode
 
 
+def _threads_body(threads: dict) -> str:
+    """Threads 본문 텍스트. 3단 스레드(posts 배열)와 단일 content를 모두 인정한다.
+
+    현재 파이프라인은 Threads를 3단 스레드로 만들고 승인 로그에 `posts` 배열로
+    적는다(1편 → 답글 → 답글). 예전에는 여기서 `content`/`selected_content`만
+    확인해, posts만 있는 로그를 전부 "content is empty"로 막았다. 공개 블로그에서
+    복원한 합성 승인 로그가 모두 posts 형식이라 그 경로의 Threads 게시가 항상
+    차단됐고, 재시도해도 같은 로그를 다시 만들어 동일하게 실패했다.
+    """
+    direct = str(threads.get("content") or threads.get("selected_content") or "").strip()
+    if direct:
+        return direct
+    parts = [
+        str((post or {}).get("content") or "").strip()
+        for post in (threads.get("posts") or [])
+        if isinstance(post, dict)
+    ]
+    return "\n\n".join(part for part in parts if part).strip()
+
+
 def validate_approval_log_for_real_publish(path: Path) -> Optional[str]:
     """Block real publishing when an approval log lacks required media/content."""
     try:
@@ -244,7 +264,7 @@ def validate_approval_log_for_real_publish(path: Path) -> Optional[str]:
     threads = platforms.get("threads") or {}
     instagram = platforms.get("instagram") or {}
 
-    if threads.get("enabled") and not (threads.get("content") or threads.get("selected_content") or "").strip():
+    if threads.get("enabled") and not _threads_body(threads):
         return "Threads is enabled but content is empty."
 
     if instagram.get("enabled"):

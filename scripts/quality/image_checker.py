@@ -42,9 +42,21 @@ except Exception as exc:  # pragma: no cover - PIL is required
 
 DEFAULT_MIN_SCORE = 80
 DEFAULT_STYLE = "hand-drawing"
+# 스타일별로 프롬프트에 반드시 남아 있어야 하는 표식. 발행 스타일이 8종으로 늘어
+# 전 종을 인식한다(예전에는 2종만 알아 나머지 스타일 발행이 검증에서 걸렸다).
+# 정의 원본은 blog-sns-web/backend/app/services/image_styles.py.
 STYLE_PREFIXES = {
     "hand-drawing": ("hand-drawn", "ink", "pen", "cross-hatch", "drawing", "linework"),
-    "oil": ("oil painting", "oil-painting", "painterly", "brushstroke", "oil on canvas"),
+    "oil": ("oil painting", "oil-painting", "painterly", "brushstroke", "impasto"),
+    "lo-fi-anime": ("lo-fi", "lofi", "anime", "manga", "pastel", "cel shading"),
+    "sketch-infographic": ("sketchbook", "sketchnote", "doodle", "infographic", "marker"),
+    "joseon-poster": ("joseon", "sansuhwa", "ink-and-wash", "dancheong", "obangsaek", "hanji"),
+    "3d-render": ("3d render", "3d rendered", "rendered", "global illumination",
+                  "ambient occlusion", "subsurface"),
+    "photo": ("photorealistic", "photograph", "prime lens", "bokeh", "depth of field",
+              "white balance"),
+    "infographic": ("infographic", "vector", "chart", "data visualisation",
+                    "data visualization", "grid layout"),
 }
 ALLOWED_EXT = {".png", ".jpg", ".jpeg", ".webp"}
 PNG_MAGIC = b"\x89PNG\r\n\x1a\n"
