@@ -1,0 +1,21 @@
+{{/*
+  관련 글 — 같은 태그를 가장 많이 공유하는 글 3편.
+  긴 글(상위 트래픽 글 중앙값 11,520자)을 다 읽은 독자가 그대로 이탈하지 않게
+  다음 목적지를 제시한다. Hugo 내장 Related를 쓰므로 별도 색인이 필요 없다.
+*/}}
+{{- $related := first 3 (site.RegularPages.Related .) -}}
+{{- with $related }}
+<section class="related-posts" aria-label="관련 글">
+  <h3>같이 읽으면 좋은 글</h3>
+  <ul>
+    {{- range . }}
+    <li>
+      <a href="{{ .RelPermalink }}">
+        {{ .Title }}
+        <span class="related-date">{{ .Date.Format "2006.01.02" }}</span>
+      </a>
+    </li>
+    {{- end }}
+  </ul>
+</section>
+{{- end }}

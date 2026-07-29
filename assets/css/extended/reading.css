@@ -1,0 +1,186 @@
+/* ==========================================================================
+   READING DESIGN — 상위 트래픽 글 실측 분석 반영
+   --------------------------------------------------------------------------
+   근거(scripts/viral/analyze.py, HN 공개 점수 상위 210편 대조):
+     · 커버 이미지 보유 상위 91% vs 하위 74%  → 커버를 크게, 16:9로 고정
+     · 첫 이미지 위치 중앙값 = 본문 8% 지점    → 도입부 직후 이미지가 기본
+     · 도입부 중앙값 127자(하위군의 1/1.7)     → 첫 문단을 리드로 키워 분리
+     · 본문 11,520자 · `##` 구역 5개           → 긴 글을 끝까지 읽히게 하는 장치
+   custom.css 뒤에 이어 붙는다(파일명 순). 기존 규칙은 건드리지 않는다.
+   ========================================================================== */
+
+/* --- 커버: 목록 카드와 본문 상단 모두 같은 비율로 고정 ------------------- */
+.post-single .entry-cover,
+.post-entry .entry-cover {
+  margin: 0 0 22px;
+  overflow: hidden;
+  border-radius: 18px;
+}
+
+.post-single .entry-cover img,
+.post-entry .entry-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  margin: 0;
+  border-radius: 18px;
+}
+
+.post-single .entry-cover span,
+.post-entry .entry-cover span {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.86rem;
+  color: var(--secondary);
+}
+
+/* --- 리드 문단: 도입부는 짧게 쓰고, 짧은 만큼 크게 보이게 --------------- */
+.post-content > p:first-of-type {
+  font-size: 1.16em;
+  line-height: 1.78;
+  color: var(--primary);
+  letter-spacing: -0.02em;
+  margin-bottom: 1.4em;
+}
+
+/* --- 핵심요약/한눈에 보기: 글 맨 앞 요약 목록을 카드로 세운다 -----------
+   발행된 글은 두 형태를 쓴다: 리드 문단 바로 뒤 목록, 또는 첫 `##`(핵심 요약)
+   바로 뒤 목록. 둘 다 잡아야 과거 글까지 함께 바뀐다. */
+.post-content > p:first-of-type + ul,
+.post-content > h2:first-of-type + ul {
+  margin: 0 0 2.2em;
+  padding: 20px 22px 20px 40px;
+  border: 1px solid var(--border);
+  border-inline-start: 4px solid var(--primary);
+  border-radius: 14px;
+  background: var(--code-bg);
+  list-style: none;
+}
+
+.post-content > p:first-of-type + ul > li,
+.post-content > h2:first-of-type + ul > li {
+  position: relative;
+  margin: 0.5em 0;
+  padding-left: 2px;
+  line-height: 1.7;
+}
+
+.post-content > p:first-of-type + ul > li::before,
+.post-content > h2:first-of-type + ul > li::before {
+  content: "";
+  position: absolute;
+  left: -18px;
+  top: 0.62em;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--primary);
+  opacity: 0.55;
+}
+
+/* --- 목차: 긴 글에서 현재 위치를 잃지 않게 화면에 붙여 둔다 ------------- */
+@media (min-width: 1100px) {
+  .post-single .toc {
+    position: sticky;
+    top: 14px;
+    z-index: 4;
+    backdrop-filter: saturate(180%) blur(8px);
+  }
+}
+
+.post-single .toc {
+  border-radius: 14px;
+  border: 1px solid var(--border);
+}
+
+/* --- 읽기 진행바: 본문 길이가 길수록 이탈을 막는 장치 ------------------- */
+.reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 0;
+  z-index: 60;
+  background: var(--primary);
+  opacity: 0.85;
+  transition: width 0.08s linear;
+  pointer-events: none;
+}
+
+/* --- 본문 이미지 캡션(마크다운의 이미지 다음 줄 강조) ------------------- */
+.post-content img + em,
+.post-content figcaption {
+  display: block;
+  margin: -1em 0 1.8em;
+  text-align: center;
+  font-size: 0.88rem;
+  font-style: normal;
+  color: var(--secondary);
+}
+
+/* --- 관련 글: 글 끝에서 다음 글로 넘어가게 한다 ------------------------- */
+.related-posts {
+  max-width: var(--post-width);
+  margin: 44px auto 0;
+  padding-top: 28px;
+  border-top: 1px solid var(--border);
+}
+
+.related-posts h3 {
+  margin: 0 0 16px;
+  font-size: 1.05rem;
+  letter-spacing: -0.02em;
+  color: var(--secondary);
+}
+
+.related-posts ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.related-posts a {
+  display: block;
+  height: 100%;
+  padding: 16px 18px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--entry);
+  color: var(--primary);
+  text-decoration: none;
+  line-height: 1.45;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.related-posts a:hover {
+  transform: translateY(-2px);
+  border-color: var(--primary);
+}
+
+.related-posts .related-date {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.8rem;
+  color: var(--secondary);
+}
+
+/* --- 모바일: 리드와 카드가 화면을 먹지 않게 조인다 ---------------------- */
+@media (max-width: 640px) {
+  .post-content > p:first-of-type {
+    font-size: 1.08em;
+  }
+
+  .post-content > p:first-of-type + ul,
+  .post-content > h2:first-of-type + ul {
+    padding: 16px 16px 16px 34px;
+  }
+
+  .related-posts ul {
+    grid-template-columns: 1fr;
+  }
+}

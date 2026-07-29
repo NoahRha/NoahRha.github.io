@@ -1,0 +1,29 @@
+{{/*
+  읽기 진행바 — 본문이 긴 글에서 "얼마나 남았는지"를 보여 준다.
+  스크롤 이벤트는 rAF로 한 번만 계산해 모바일에서도 끊기지 않게 한다.
+*/}}
+{{- if .IsPage }}
+<div class="reading-progress" id="reading-progress" role="presentation"></div>
+<script>
+(function () {
+  var bar = document.getElementById('reading-progress');
+  var article = document.querySelector('.post-content');
+  if (!bar || !article) return;
+  var ticking = false;
+  function update() {
+    ticking = false;
+    var start = article.offsetTop;
+    var span = article.offsetHeight - window.innerHeight + 120;
+    if (span <= 0) { bar.style.width = '0'; return; }
+    var ratio = (window.scrollY - start) / span;
+    bar.style.width = Math.min(100, Math.max(0, ratio * 100)) + '%';
+  }
+  function onScroll() {
+    if (!ticking) { ticking = true; requestAnimationFrame(update); }
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll, { passive: true });
+  update();
+})();
+</script>
+{{- end }}
