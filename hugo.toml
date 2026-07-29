@@ -31,7 +31,8 @@ enableRobotsTXT = true
   defaultTheme = 'auto'
   disableThemeToggle = false
   ShowReadingTime = true
-  ShowShareButtons = false
+  # 공유 버튼은 유입 경로다. 상위 트래픽 글 분석 이후 켠다.
+  ShowShareButtons = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
